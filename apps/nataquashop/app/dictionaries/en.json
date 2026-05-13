@@ -1,0 +1,1008 @@
+{
+  "home": {
+    "title": "Home - MLCN Sports",
+    "description": "Access your admin space to manage your account and data",
+    "events": {
+      "title":"Our Events",
+      "at":"at"
+    },
+    "banner": {
+      "cta": "View products"
+    },
+    "collectionHighlight": {
+      "subTitle": "Collection"
+    },
+    "news": "Novelties",
+    "collection": {
+      "cta": "View collection"
+    },
+    "trending": {
+      "title": "OUR TRENDING SELECTION",
+      "products": {
+        "speedo": {
+          "title": "Speedo Women's Shorts",
+          "description": "Spring 2024 Collection",
+          "price": "49.99",
+          "oldPrice": "69.99",
+          "button": "Buy",
+          "addToCart": "Add to cart"         
+        },
+        "arena": {
+          "title": "Arena Swimsuit",
+          "description": "Performance Series",
+          "price": "89.99",
+          "oldPrice": "119.99",
+          "button": "Buy"
+        }
+      }
+    },
+    "categories": {
+      "competition": "COMPETITION SWIMSUITS",
+      "beach": "BEACH SHORTS",
+      "training": "COMPETITION SHORTS"
+    },
+    "beachwear": {
+      "title": "COLLECTION",
+      "subtitle": "Beachwear"
+    },
+    "bestsellers": {
+      "title": "BEST SELLERS"
+    }
+  },
+  "cart": {
+    "title": "My cart",
+    "addDiscount": "Add a discount",
+    "next": "Continue",
+    "moreOne":"More one",
+    "inStock":"in stock",
+    "last":"Last in stock",
+    "added": "Product added to cart !",
+    "shipping": {
+      "title": "Shipping",
+      "back": "Back",
+      "relayPoint": {
+        "title": "Relay point",
+        "select": "Select",
+        "billingAddress": "Billing address",
+        "edit": "Edit",
+        "validation": "Please select a relay point to continue"
+      },
+      "relayPointSelect": {
+        "title": "Select a relay point"
+      },
+      "address": {
+        "title": "Select an address",
+        "cancel": "Cancel",
+        "add": "Add",
+        "select": "Select"
+      },
+      "addressForm": {
+        "title": "Add an address",
+        "designation": "Designation",
+        "designationPlaceholder": "Name the address",
+        "address": "Address",
+        "addressPlaceholder": "Address",
+        "postalCode": "Postal code",
+        "postalCodePlaceholder": "Postal code",
+        "city": "City",
+        "cityPlaceholder": "City",
+        "complement": "Complement",
+        "complementPlaceholder": "Complement",
+        "building": "Floor, Building",
+        "buildingPlaceholder": "Floor, Building",
+        "country": "Country",
+        "countryPlaceholder": "Select a country",
+        "cancel": "Cancel",
+        "add": "Add"
+      },
+      "home": {
+        "title": "Home delivery",
+        "deliveryAddress": "Delivery address",
+        "billingAddress": "Billing address",
+        "edit": "Edit",
+        "shippingOptions": {
+          "standard": "Standard",
+          "express": "Express"
+        }
+      },
+      "store": {
+        "title": "Store pickup",
+        "billingAddress": "Billing address",
+        "edit": "Edit"
+      }
+    },
+    "payment": {
+      "title": "Payment",
+      "back": "Back",
+      "card": {
+        "title": "Credit card",
+        "orderSummary": "Order summary"
+      },
+      "transfer": {
+        "title": "Bank transfer",
+        "orderSummary": "Order summary",
+        "bankInfo": "Bank information",
+        "instructions": "To validate your order, please click on the \"Validate order\" button and make a transfer to the following bank account.",
+        "fields": {
+          "accountHolder": "Account holder",
+          "bankCode": "Bank code",
+          "branchCode": "Branch code",
+          "accountNumber": "Account number",
+          "ribKey": "RIB key",
+          "iban": "IBAN",
+          "bic": "BIC"
+        }
+      },
+      "summary": {
+        "subtotalExclVAT": "Subtotal (excl. VAT)",
+        "subtotalIncVAT": "Subtotal (incl. VAT)",
+        "shipping": "Shipping fees",
+        "discount": "Discount(s)",
+        "total": "Total"
+      }
+    },
+    "footer": {
+      "resume": {
+        "total": "Total: {total}",
+        "vatIncluded": "*VAT included",
+        "button": "Continue to shipping"
+      },
+      "shipping": {
+        "text": "Your order will be shipped within 24 hours after payment validation. Delivery times vary according to the chosen shipping method.",
+        "button": "Continue to payment"
+      },
+      "payment": {
+        "text": "By clicking \"Place order\", you accept the terms and conditions and privacy policy.",
+        "button": "Place order"
+      }
+    },
+    "discount": {
+      "promoTab": "Promo code",
+      "giftTab": "Gift card",
+      "promoLabel": "Code",
+      "promoPlaceholder": "Promo code",
+      "giftLabel": "Gift card code",
+      "giftPlaceholder": "Gift card",
+      "cancel": "Cancel",
+      "add": "Add"
+    },
+    "noproduct": "No product",
+    "personalized": "Personalized"
+  },
+  "product":{
+    "similarProducts":{
+      "title":"Similar products",
+      "color":"Color",
+      "size":"Size",
+      "description":"Description",
+      "specification":"Specification",
+      "alertStock":"Alert me when available",
+      "outStock":"Sold out",
+      "notification":"Notification will be sent once the product is restocked.",
+      "allPictures":"All pictures",
+      "buy":"Buy",
+      "personnalization":"Would you like to personalize your product? ",
+      "placeholder":"Choose an option"
+    },
+    "review":"SEE REVIEWS",
+    "filter": "Filter",
+    "buy": "Buy",
+    "back":"Back",
+    "availableImage":"No image available",
+    "personnalization":{
+      "description":"Add a unique touch to your item — add a name, a word, or a short message.",
+      "placeholder":"Enter your personalization text here..."
+    }
+  },
+  "login": {
+    "title": "SIGN IN",
+    "subtitle": "Access your client area",
+    "email": "Email address",
+    "emailPlaceholder": "john.doe@example.com",
+    "password": "Password",
+    "passwordPlaceholder": "••••",
+    "forgot": "Forgot password?",
+    "button": "Sign in",
+    "noAccount": "Don't have an account?",
+    "signup": "Sign up",
+    "backToShop": "Back to shop",
+    "fillRequired": "Please fill in all required fields.",
+    "emailMatch": "Email addresses do not match.",
+    "passwordMatch": "Passwords do not match.",
+    "acceptCGU": "You must accept the Terms of Service and Privacy Policy.",
+    "incorrect":"Incorrect email or password"
+  },
+  "common": {
+    "civilities": {
+      "monsieur": "Mr.",
+      "madame": "Ms."
+    }
+  },
+  "signup": {
+    "title": "SIGN UP",
+    "alreadyAccount": "Already have an account?",
+    "login": "Sign in",
+    "choice": {
+      "title": "YOUR INFORMATION",
+      "subtitle": "Choose your account type",        
+      "particulier": {
+        "description": "Personal account for individual swimmers",
+        "button": "Create individual account"
+      },
+      "club": {
+        "description": "Account for clubs and associations",
+        "button": "Create club/community account"
+      },
+      "backToLogin": "Back to sign in"
+    },
+    "particulier": {
+      "step1": {
+        "title": "YOUR INFORMATION",
+        "subtitle": "Step 1 of 2",
+        "fields": {
+          "civilite": "Title",
+          "civilitePlaceholder": "Select",
+          "nom": "Last name",
+          "nomPlaceholder": "Your last name",
+          "prenom": "First name",
+          "prenomPlaceholder": "Your first name",
+          "societe": "Company (opt)",
+          "societePlaceholder": "Your company name",
+          "adresse": "Address",
+          "adressePlaceholder": "Your address",
+          "codePostal": "Postal code",
+          "codePostalPlaceholder": "Postal code",
+          "ville": "City",
+          "villePlaceholder": "Your city",
+          "complement": "Address complement (opt)",
+          "complementPlaceholder": "Complement",
+          "etage": "Floor/Building (opt)",
+          "etagePlaceholder": "Floor, building",
+          "pays": "Country",
+          "paysPlaceholder": "Select a country"
+        },
+        "next": "Next",
+        "back": "Back"
+      },
+      "step2": {
+        "title": "YOUR ACCOUNT",
+        "subtitle": "Step 2 of 2",
+        "fields": {
+          "email": "Email address",
+          "emailPlaceholder": "john.doe@example.com",
+          "emailConfirm": "Confirm email",
+          "emailConfirmPlaceholder": "Confirm your email",
+          "password": "Password",
+          "passwordPlaceholder": "••••••••",
+          "passwordConfirm": "Confirm password",
+          "passwordConfirmPlaceholder": "Confirm your password",
+          "telephone": "Landline phone",
+          "telephonePlaceholder": "01 23 45 67 89",
+          "portable": "Mobile phone",
+          "portablePlaceholder": "06 12 34 56 78",
+          "birthdate": "Date of birth",
+          "birthdatePlaceholder": "DD/MM/YYYY",
+          "codeClub": "Club code (opt)",
+          "codeClubPlaceholder": "Your club code"
+        },
+        "cgu": "I accept the terms of service and privacy policy",
+        "submit": "Create my account",
+        "back": "Back"
+      }
+    },
+    "club": {
+      "step1": {
+        "title": "CLUB REPRESENTATIVE INFORMATION",
+        "subtitle": "Step 1 of 2",
+        "fields": {
+          "civilite": "Title",
+          "civilitePlaceholder": "Select",
+          "nom": "Last name",
+          "nomPlaceholder": "Your last name",
+          "prenom": "First name",
+          "prenomPlaceholder": "Your first name",
+          "adresse": "Address",
+          "adressePlaceholder": "Your address",
+          "codePostal": "Postal code",
+          "codePostalPlaceholder": "Postal code",
+          "ville": "City",
+          "villePlaceholder": "Your city",
+          "complement": "Address complement (opt)",
+          "complementPlaceholder": "Complement",
+          "etage": "Floor/Building (opt)",
+          "etagePlaceholder": "Floor, building",
+          "pays": "Country",
+          "paysPlaceholder": "Select a country"
+        },
+        "next": "Next",
+        "back": "Back"
+      },
+      "step2": {
+        "title": "CLUB ACCOUNT CREATION",
+        "subtitle": "Step 2 of 2",
+        "fields": {
+          "nomClub": "Club name",
+          "nomClubPlaceholder": "Your club name",
+          "president": "President",
+          "presidentPlaceholder": "President's name",
+          "referent": "Referent",
+          "referentPlaceholder": "Referent's name",
+          "email": "Email address",
+          "emailPlaceholder": "club@example.com",
+          "emailConfirm": "Confirm email",
+          "emailConfirmPlaceholder": "Confirm your email",
+          "password": "Password",
+          "passwordPlaceholder": "••••••••",
+          "passwordConfirm": "Confirm password",
+          "passwordConfirmPlaceholder": "Confirm your password",
+          "telephone": "Landline phone",
+          "telephonePlaceholder": "01 23 45 67 89",
+          "portable": "Mobile phone",
+          "portablePlaceholder": "06 12 34 56 78",
+          "siren": "SIREN number",
+          "sirenPlaceholder": "123 456 789",
+          "tva": "VAT number (opt)",
+          "tvaPlaceholder": "FR12345678901"
+        },
+        "cgu": "I accept the terms of service and privacy policy",
+        "submit": "Create club account",
+        "back": "Back"
+      }
+    }
+  },
+  "forgotPassword": {
+    "title": "Forgot password",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "john.doe@example.com",
+    "submit": "Reset password",
+    "cancel": "Cancel",
+    "notFound":"No account is associated with this email.",
+    "sendEmail":"A reset email has been sent!",
+    "unableSend":"Unable to send email. Try again later.",
+    "error":"An unexpected error has occurred.",
+    "loading":"Loading...",
+    "password":"Password",
+    "confirm":"Confirm Password",
+    "enter":"Enter your new password",
+    "confirmNew":"Confirm your new password",
+    "errorMismatch": "Passwords do not match",
+    "errorMissingToken": "The reset link is invalid or has expired",
+    "errorResetFailed": "Password reset failed. Please try again",
+    "errorUnexpected": "An unexpected error occurred. Please try again later",
+    "errorInvalidToken": "Invalid token",
+    "errorTokenExpired": "The reset link has expired",
+    "success": "Your password has been successfully reset !",
+    "close": "Close"
+  },
+  "navbar": {
+    "scrollingText": "Text that should scroll"
+  },
+  "sizeGuide": {
+    "title": "SIZE GUIDE",
+    "subtitle": "THESE VALUES ARE GIVEN FOR INFORMATION PURPOSES ONLY",
+    "content": "We base our sizing on \"size tests\" of products that we perform upon arrival of each new model, but also on the experience acquired throughout the year, during fittings on stands, organized during competitions.\n\nDespite a constant desire to guide you as precisely as possible, the values indicated below are given for information purposes only and do not engage any contractual responsibility in case of size error.\n\nAlso, we remain at your disposal by email or by phone, to help you know the size that suits you best.\n\nBy email or by phone: please communicate to us the brand and size of your usual training swimsuit, your measurements (height and weight), our technicians will guide you as best as possible."
+  },
+  "customization": {
+    "title": "OUR CUSTOMIZATION SERVICES",
+    "intro": "Nataquashop customizes all types of textiles, from single items to large series, for businesses, sports clubs, individuals and members. We are your communication support for your events and sports jerseys.",
+    "services": {
+      "bag": "BAG",
+      "textiles": "TEXTILES",
+      "swimsuit": "SWIMSUIT",
+      "cap": "CAP"
+    },
+    "process": {
+      "title": "CUSTOMIZATION PROCESS",
+      "content": "Transfer is a printing method for textile, luggage, etc. customization, allowing flexible printing on various supports via screen printing transfer.\n\nA screen printing production workshop equipped with a cutting plotter and a double pneumatic press, with 4 different plate sizes, for maximum printing precision. These machines can meet all printing demands on different supports."
+    },
+    "deadlines": {
+      "title": "MANUFACTURING DEADLINES",
+      "content": "Our usual lead times are about 3 weeks after BAT validation. These times include handling, folding, packaging operations, but may vary if we need to order material for which we are not responsible for the lead times.\n\nDelivery times must be added to these lead times. Faster production possible with urgent fees.\n\nWarning, all personalized item orders cannot be returned or exchanged.\n\nIf the size does not fit, Nataquashop cannot be held responsible; all sizes are given as an indication and not a purchase obligation.\n\nOnly the club chooses the markings; members cannot modify the club store's markings."
+    },
+    "care": {
+      "title": "CARE OF MARKED TEXTILES",
+      "content": "Screen-printed garments do not require special washing. We recommend washing at 30°C with a mild detergent."
+    },
+    "howTo": {
+      "title": "I WANT TO CUSTOMIZE A PRODUCT, HOW DO I DO IT?",
+      "individual": {
+        "title": "I AM AN INDIVIDUAL: I CUSTOMIZE MY PRODUCT WITH MY FIRST NAME",
+        "content": "Place your order \"normally\" by selecting your item, size, and color. Then add the \"marking\" to your cart.\n\nPlease note at the end of your order (during step 4 (CONFIRMATION) of your order) your first name in the \"leave a comment\" section, as well as the print color and a font if you want a specific one.\n\nBy default, the first name communicated will be in standard font with the first letter capitalized and the rest in lowercase."
+      },
+      "business": {
+        "title": "I AM A CLUB / A BUSINESS / A COMMUNITY",
+        "content": "A quote request will be necessary, write to Nicolas: devisnataqua@gmail.com, indicating your wishes (choice of textile, caps, equipment, ...), quantity, colors....\n\nDon't forget to provide your logo by email in Adobe Illustrator, EPS, PNG or JPG format, specifying the desired colors (Pantone color codes if possible)."
+      },
+      "caps": {
+        "title": "I WISH TO ORDER PERSONALIZED CAPS",
+        "content": "For personalized caps, contact us directly by email at devisnataqua@gmail.com with your specifications."
+      }
+    }
+  },
+  "returnPolicy": {
+    "title": "RETURN POLICY",
+    "satisfiedSection": {
+      "title": "SATISFIED OR REFUNDED",
+      "content": "Changed your mind? Our products don't provide you with complete satisfaction?\n\nPlease note that for any purchase made on www.nataquashop.com, the customer has a 14-day withdrawal period from the date of receipt of the items to return a product that ultimately does not meet your expectations. Note that your product must be returned in its original condition in perfect resale condition. Any incomplete product cannot be returned to you, so please make sure to return all initially included accessories (packaging, manuals, etc.), in their original box accompanied by the return slip."
+    },
+    "returns": {
+      "title": "RETURNS",
+      "canReturn": {
+        "title": "CAN I RETURN ORDERED PRODUCTS?",
+        "content": "The customer has a 14-day withdrawal period* from the date of receipt of the items to return a product that ultimately does not meet your expectations.\n\nItems that include personalization (e.g., marking) do not benefit from this return possibility.\n\nProducts must be returned with their original label and packaging and not tried in water.\n\nAny product returned that would not be presentable for resale cannot be accepted (item worn in water, missing packaging...)\n\n* the 14-day period is understood to be between the date of receipt of the package by the customer and the date of re-shipment (postmark serving as proof) of the product to be returned."
+      },
+      "howToReturn": {
+        "title": "HOW CAN I RETURN ORDERED PRODUCTS?",
+        "content": "I go to the \"My orders\" section of my customer account and select the order from which the item to be returned originated.\n\nI select the item and click on \"request a return\".\n\nAfter validation by the after-sales service, I then receive a return slip by email to print and insert into my package.\n\nThe returns are to be sent to the following address:\nNataquashop\nRoute d'Aubusson\n23140 Jarnages\n\nUpon receipt of my return by the after-sales service, it is handled by a technician who verifies the content and condition of the product. I then receive an email notification advising me of the validation of my return by the after-sales service.\n\nFor more security, we strongly advise you to send your return with a tracking number. In case of non-receipt of the return by nataquashop, your request cannot be processed."
+      },
+      "whereToFind": {
+        "title": "WHERE CAN I FIND MY RETURN SLIP?",
+        "content": "To find my return slip, I log in to \"My Account\", select the \"Credits and Returns\" tab. I then click on the relevant order and select the \"Print my return slip\" tab.\n\nI then insert this return slip into my package and send it to Nataquashop After-Sales Service."
+      }
+    },
+    "exchanges": {
+      "title": "EXCHANGES",
+      "howToExchange": {
+        "title": "HOW TO PROCEED WITH AN EXCHANGE?",
+        "content": "The return procedure is identical to that described previously.\n\nUpon receipt and validation of your return by the after-sales service, you will receive an email notification.\n\nIf the same product in a different size is available, we ship it to you. Otherwise, the amount of the item and shipping costs are credited to your customer credits (provided the 14-day withdrawal period between item receipt and reshipping date to the company is respected), allowing you to reorder the desired item without additional fees.\n\nException: for orders shipped via Chronopost, Exapaq/DPD and UPS, the amount of the item and delivery fees for \"Ici Relais\" will be credited.\n\nNo exchanges are possible for orders shipped outside mainland France.\n\nYou can identify your customer credit amount in your customer account at any time.\n\nCustomer credits are valid for 1 year from the creation date.\n\nFor clubs: if an exchange is requested and the exchange amount is less than €100, shipping fees may be charged."
+      },
+      "shippingCosts": {
+        "title": "WHO COVERS THE RESHIPPING COSTS DURING AN EXCHANGE?",
+        "content": "During an exchange, reshipping costs for items are covered by Nataquashop if the 14-day period is respected and the shipment is made via \"Mondial Relay\" carrier.\n\nException: for orders shipped via Chronopost, the amount of the item and delivery fees for \"Ici Relais\" will be credited.\n\nCustomer credits are valid for 1 year from the creation date."
+      },
+      "timeframe": {
+        "title": "WITHIN WHAT TIMEFRAME IS MY EXCHANGE PROCESSED?",
+        "content": "During an exchange, Nataquashop must wait for the return to be received before sending the desired item (provided the item is the same but in a different size).\n\nIf the product is not available, the amount of the item is credited to customer credits, along with shipping fees.\n\nCustomer credits are valid for 1 year from the creation date.\n\nThe exchange procedure is not immediate and can take 4 to 6 days after the return is received (depending on the chosen delivery services for returning and reshipping the item).\n\nIf the exchange is urgent, the customer can place a new order for the desired item, and their order will be processed quickly (according to hours).\n\nIt is preferable to send the return with a tracking number; if the package is not received by Nataquashop, the return cannot be validated."
+      }
+    },
+    "creditRequest": {
+      "title": "REQUEST FOR CREDIT ON CUSTOMER ACCOUNT",
+      "howToCredit": {
+        "title": "HOW TO PROCEED WITH A CREDIT REQUEST?",
+        "content": "I wish to cancel my purchase but benefit from a credit note in order to proceed with a new order. Nataquashop credits me with a credit note according to the following conditions:\n\n- If I am within the legal withdrawal period of 14 days*, Nataquashop credits me with the amount of the article and shipping costs on my customer account so that I can place an order without any additional fees.\n\n- If I am outside this legal period, only the amount of the article will be credited to me.\n\n*the 14-day period is understood between the date of receipt by the customer of the package and the date of reshipping of the product (postmark being proof).\n\nFor orders that have been delivered outside mainland France or Monaco, shipping costs will not be credited.\n\n- If I am outside the 30-day period, my return will be refused and I should then send a check for the amount of shipping costs so that Nataquashop can reship my return.\n\nFor orders shipped via Chronopost, the amount of the article and delivery fees for Ici Relais will be credited to me.\n\nThe credit note in the form of customer credits will have a validity period of 1 year from the creation date."
+      },
+      "warning": "WARNING: If an order initially benefits from free shipping due to a total amount exceeding the threshold set at €69.90, the return of one or more articles may result in a modification of the total order amount. If, following this return, the new total of the order is below the free shipping threshold, shipping costs will then be applied and deducted from the amount refunded to the customer or the credit issued.",
+      "timeframe": {
+        "title": "WITHIN WHAT TIMEFRAME AM I CREDITED ON MY CUSTOMER ACCOUNT?",
+        "content": "As soon as my return is validated, the After-Sales Service credits my customer account. I then receive an email to inform me.\n\nThis credit note will have a validity period of 1 year from the creation date."
+      }
+    },
+    "refundRequest": {
+      "title": "REFUND REQUEST",
+      "howToRefund": {
+        "title": "HOW TO PROCEED WITH A REFUND REQUEST?",
+        "content": "I wish to cancel my purchase and be reimbursed to my bank account. Nataquashop reimburses me according to the following conditions:\n\n- If the refund request occurs within the legal withdrawal period of 14 days* upon receipt of the package, the refund of the item(s) is effective.\n\n- If the request occurs beyond the legal withdrawal period of 14 days, the amount corresponding to your items will be credited to your customer account (credit note). We will then only refund your order in the form of a credit note.\n\nThis credit note will be valid for 1 year from the date of creation.\n\nFor orders delivered outside Metropolitan France or Monaco, shipping costs will not be refunded.\n\nSale products will not be refunded, only a credit note for the amount of the item will be issued.\n\nFor any order paid with a gift voucher, a refund is not possible, only a credit note on the customer account will be issued."
+      },
+      "warning": "ATTENTION: If an order initially benefits from free delivery costs due to a total amount exceeding the threshold set at €69.90, the return of one or more items may result in a modification of the total order amount. If, following this return, the new total of the order is below the free delivery threshold, shipping costs will then be applied and deducted from the amount refunded to the customer or from the credit note issued.",
+      "timeframe": {
+        "title": "WITHIN WHAT TIMEFRAME AM I REFUNDED?",
+        "content": "Refunds to bank accounts can be made within 14 days upon receipt of the returned products.\n\nClub orders are refunded by cheque. You will receive the refund cheque within 30 days upon receipt of the returned products."
+      }
+    },
+    "defectiveProduct": {
+      "title": "RETURN OF DEFECTIVE PRODUCT, PRODUCT ERROR OR MISSING PRODUCT",
+      "defective": {
+        "title": "MY PRODUCT IS DEFECTIVE",
+        "content": "If I receive a defective product, I make my return request as indicated above, and I report the problem to Nataquashop within a maximum of 30 days and I must imperatively send a photo of the product by email.\n\nIf the supplier accepts the return for defective, a return slip will be created and must be attached to the package.\n\nUpon receipt of the item, Nataquashop sends me the same product, otherwise a credit note will be credited to my customer credits.\n\nThe credit in the form of customer credits will be valid for 1 year from the date of creation.\n\nThis credit will be valid for 1 year from the date of creation.\n\nIf I return my item without agreement and it is refused, a check for the amount of the shipping costs will be requested from me in order to reship my product.\n\nAttention, for a defective return, the return costs always remain at the customer's expense."
+      },
+      "wrongProduct": {
+        "title": "I DID NOT RECEIVE THE PRODUCT I ORDERED",
+        "content": "Upon receipt of my order, I realize that the product received does not correspond to the product ordered, I contact Nataquashop to report the problem within a maximum of 30 days.\n\nA return slip will be created and attached to the package and a return label will be sent to you for shipping the package. Upon receipt of the package, the After-Sales Service will analyze my product to see if it is indeed an error.\n\nIf my return is accepted, Nataquashop sends me the correct product, otherwise a credit note will be credited to my customer credits.\n\nThe credit in the form of customer credits will be valid for 1 year from the date of creation.\n\nIf my return is refused, a check for the amount of the shipping costs will be requested from me in order to reship my product.\n\nI have a period of 30 days after receiving my order to report the problem.\n\nIf the photo of the product does not correspond to the product received (strap colors or contrast difference...), this is not a reason for shipping error."
+      },
+      "missingProduct": {
+        "title": "A PRODUCT IS MISSING FROM MY ORDER",
+        "content": "I received my order and a product is missing, I contact Nataquashop to report my problem within a maximum of 10 days.\n\nThe information has been escalated to the shipping department and if the damage is observed, my product will be shipped.\n\nAttention, certain models, of the Turbo brand, of the same size may be different depending on the productions (colors, size, design...). Nataquashop cannot be held responsible for this difference, this return reason cannot be qualified as defective, it will be a normal return."
+      }
+    }
+  },
+  "faq": {
+    "title": "FREQUENTLY ASKED QUESTIONS",
+    "myAccount": {
+      "title": "MY ACCOUNT",
+      "createAccount": {
+        "title": "HOW TO CREATE MY CUSTOMER CLUB SPACE?",
+        "content": "I just need to enter an email address, a password and complete our registration form. I then receive an email to validate my customer account. Attention, my email address must be valid to receive all notifications related to order tracking. Similarly, the same email address cannot serve as an identifier for two Nataquashop customer accounts."
+      },
+      "forgotPassword": {
+        "title": "HOW TO LOG IN IF I LOST MY PASSWORD?",
+        "content": "I forgot my password: accessible on the customer space homepage. Then, I simply enter the email I use on my customer account and my Nataquashop advisor will send me my password to this address."
+      },
+      "modifyAddress": {
+        "title": "CAN I MODIFY MY BILLING AND/OR SHIPPING ADDRESS?",
+        "content": "Of course yes. I go to \"My Account\". Then I click on \"My Information\" and now I can modify my billing and/or shipping address as well as the shipping address. Attention, each new shipping address must be named (for example: office address, vacation address, etc.). If the \"designation\" field is not filled in, this new address will not be taken into account and will not appear during this step in the cart."
+      }
+    },
+    "myOrders": {
+      "title": "MY ORDERS",
+      "howToOrder": {
+        "title": "HOW CAN I PLACE MY ORDER?",
+        "content": "**Step 1:** I select my item\n\n**Step 2:** I add my item to my cart\n\n**Step 3:** I validate my cart by clicking on \"Order\""
+      }
+    },
+    "shippingDelivery": {
+      "title": "SHIPPING AND DELIVERY",
+      "deliveryDifference": {
+        "title": "WHAT IS THE DIFFERENCE BETWEEN A DELIVERY TIME AND A SHIPPING TIME?",
+        "content": "**The shipping time** starts from order validation and corresponds to a duration of processing and preparation of my package.\n\n**The delivery time** starts from the shipment of your package from our warehouses. It corresponds to the time required for the delivery provider to deliver my package to the delivery address indicated when placing my order."
+      },
+      "processingTime": {
+        "title": "WHAT IS THE AVERAGE PROCESSING TIME FOR MY ORDER?",
+        "content": "**The shipping time** depends on the availability of ordered items. From order validation (upon receipt of payment), the shipping time for in-stock items is 24 hours.\n\n**The delivery time** for packages varies depending on the provider chosen during the order. All these times are specified on the \"delivery terms\" page. I can access it by clicking on the link at the bottom of the site's homepage."
+      },
+      "shippingCosts": {
+        "title": "WHAT ARE THE DELIVERY FEES FOR MY ORDER?",
+        "content": "Delivery fees depend on the chosen provider and the weight of the package. ». They correspond to the shipping costs of the package (packaging etc.) and delivery costs by carrier.\n\nThey are indicated in step 3 of the cart: \"shipping\".\n\nI can also find all this information on the \"delivery terms\" page. I can access it by clicking on the link at the bottom of the site's homepage."
+      },
+      "packageNotReceived": {
+        "title": "MY PACKAGE HAS BEEN SHIPPED BUT I STILL HAVEN'T RECEIVED IT, WHAT SHOULD I DO?",
+        "content": "Despite daily tracking of all packages shipped by a Nataquashop customer service advisor, it sometimes happens that a package cannot be delivered under the desired optimal conditions.\n\nBy ordering from Nataquashop, I systematically benefit from 100% serenity insurance. Nataquashop guarantees all its customers impeccable After-Sales Service and fully covers the costs caused by damage to items during delivery. However, it is required that the customer report any potential problem to the carrier upon receipt of their package.\n\nIn this case, I therefore inform Nataquashop After-Sales Service as soon as possible."
+      }
+    },
+    "return": {
+      "title": "RETURN",
+      "canReturn": {
+        "title": "CAN I RETURN ORDERED PRODUCTS?",
+        "content": "Nataquashop allows me to benefit from a 14-day withdrawal period from the date of receipt of the items to return a product that ultimately does not meet my expectations. Items that include personalization (e.g., marking) do not benefit from this return option.\n\nThe product must be returned in its original condition. Any incomplete product may be returned to me; Therefore, all initially included accessories (packaging, manuals, etc.) must be returned in their original box accompanied by the return slip."
+      },
+      "howToReturn": {
+        "title": "HOW CAN I RETURN ORDERED PRODUCTS?",
+        "content": "I go to the \"My orders\" section of my customer account and select the order from which the item to be returned originated. I select the item and click on \"request a return\". I then receive a return slip by email to print and insert into my package.\n\nUpon receipt of my return by the after-sales service, it is handled by a technician who verifies the content and condition of the product. I then receive an email notification informing me of the registration of my return by the after-sales service.\n\nI return my item to the following address:\n**Nataquashop / Return Service**\n**Route d'Aubusson**\n**23140 Jarnages**"
+      },
+      "findReturnSlip": {
+        "title": "WHERE CAN I FIND MY RETURN SLIP?",
+        "content": "To find my return slip, I log in to \"My Account\", select the \"Credits and Returns\" tab. I then click on the relevant order and select the \"Print my return slip\" tab. I then insert this return slip into my package and send it to Nataquashop After-Sales Service."
+      },
+      "returnCosts": {
+        "title": "IN CASE OF PRODUCT RETURN, WHO PAYS FOR THE RETURN COSTS?",
+        "content": "Return costs are at my expense, except in case of an error in package preparation."
+      }
+    },
+    "exchange": {
+      "title": "EXCHANGE",
+      "howToExchange": {
+        "title": "HOW TO PROCEED WITH AN EXCHANGE?",
+        "content": "The return procedure is the same as described previously. Upon receipt and validation of my return by the after-sales service, I receive a notification of its handling by e-mail.\n\nA new order is shipped if the same item in a different size is available, otherwise, I am credited with the amount of the item and shipping costs to my customer credits so that I can reorder the desired item.\n\nI can at any time identify the amount of my customer credits in my customer account.\n\nIf I am a club member, a credit note for the amount of the item only will be credited to my customer account so that I can reorder.\n\nIf I am a club member, if an exchange is requested and the exchange amount is less than €100, shipping costs may be charged.\n\nThe credit in the form of customer credits will be valid for 6 months from the creation date."
+      },
+      "reshippingCosts": {
+        "title": "WHO COVERS THE RESHIPPING COSTS DURING AN EXCHANGE?",
+        "content": "During an exchange, the re-shipping costs of my items are covered by Nataquashop (subject to compliance with the legal period of 14 days upon receipt of the package). Only the return costs are at my expense.\n\nNataquashop cannot be held responsible in case of loss of the package during return"
+      },
+      "exchangeTimeframe": {
+        "title": "WITHIN WHAT TIMEFRAME IS MY EXCHANGE PROCESSED?",
+        "content": "During an exchange, Nataquashop is obliged to wait for the receipt of my return to reship the desired item.\n\nThe exchange procedure is therefore not immediate and can take 4 to 6 days (depending on the delivery services chosen to carry out the return and reship the item).\n\nIf the exchange is urgent, I can reorder the desired item, my order will then be processed the same day.\n\nI must therefore advance the costs, the Nataquashop team will then reimburse me to my bank account upon receipt of my return package."
+      }
+    },
+    "creditRequest": {
+      "title": "CREDIT REQUEST ON CUSTOMER ACCOUNT",
+      "howToCredit": {
+        "title": "HOW TO PROCEED WITH A CREDIT REQUEST?",
+        "content": "I wish to cancel my purchase but benefit from a credit to place a new order. Nataquashop credits me with a credit note under the following conditions:\n\n- If I return a product from an order containing multiple items, the initial shipping costs are not credited.\n\n- If I return an entire order, the amount of the items as well as the shipping costs are credited (if the legal 14-day period is respected)\n\nIn all cases, return shipping costs remain my responsibility.\n\nFor orders delivered outside Metropolitan France or Monaco, only standard shipping costs will be credited.\n\nThis credit note will be valid for 6 months from its creation date."
+      },
+      "creditTimeframe": {
+        "title": "WITHIN WHAT TIMEFRAME AM I CREDITED ON MY CUSTOMER ACCOUNT?",
+        "content": "Upon validation of my return, the After-Sales Service credits my customer account. I then receive an email to inform me.\n\nThis credit note will be valid for 6 months from its creation date."
+      }
+    },
+    "payment": {
+      "title": "PAYMENT",
+      "security": {
+        "title": "ARE PAYMENTS ON NATAQUASHOP.COM SECURE?",
+        "content": "Nataquashop.com has opted for the \"Cyberplus Paiement\" system from Banque Populaire. It uses SSL technology, the most widespread security standard for secure electronic transactions, so I no longer have any doubts about secure payment when making purchases on this site."
+      },
+      "paymentMethods": {
+        "title": "WHAT PAYMENT METHODS ARE OFFERED?",
+        "content": "At Nataquashop, you have the possibility to pay with several payment methods: Bank transfer, Credit Card and Check."
+      },
+      "onlineCard": {
+        "title": "Online credit card",
+        "content": "This is the fastest way to finalize my order. This payment is perfectly secure.\n\nNataquashop has opted for the \"cyberplus paiement\" system from the popular bank. It uses SSL technology, the most widespread security standard for secure electronic transactions.\n\nAt no time during the transaction does the merchant have access to my bank details. Processing is immediate. As soon as I place my order, my bank account is debited. This avoids any storage of my details (which is moreover formally forbidden by law).\n\nI can pay with a CB, VISA or MASTERCARD card."
+      },
+      "bankTransfer": {
+        "title": "Bank transfer",
+        "content": "For all my orders, I can also pay by bank transfer.\n\nI find below the bank details:\nBank name: Banque Populaire Aquitaine Centre Atlantique\nDomiciliation: BPACA Guéret La Marche\nBank code: 10907\nCounter code: 00551\nAccount number: 54221407535\nRIB key: 81\nIBAN code: FR76 1090 7005 5154 2214 0753 581\nBIC: CCBPFRPPBDX\n\nI send an email to nicolas@nataquashop.com to specify the transfer date."
+      },
+      "check": {
+        "title": "Bank or postal check",
+        "content": "Nataquashop does not accept checks."
+      }
+    },
+    "giftVouchers": {
+      "title": "GIFT VOUCHERS",
+      "amounts": {
+        "title": "WHAT ARE THE DIFFERENT AMOUNTS FOR GIFT VOUCHERS?",
+        "content": "Gift voucher amounts range from 10 euros to 300 euros. I can offer as many gift vouchers as I wish. Once I have validated my order, I receive the gift voucher(s) with the activation codes."
+      },
+      "validity": {
+        "title": "WHAT IS THE VALIDITY DATE FOR GIFT VOUCHERS?",
+        "content": "All gift vouchers at Nataquashop are valid for 1 year from the date of purchase."
+      },
+      "whereToUse": {
+        "title": "WHERE CAN I USE MY GIFT VOUCHER?",
+        "content": "I can activate my gift voucher code only on the www.nataquashop.com website. Attention! Gift vouchers are only usable on the online site!"
+      },
+      "shippingCosts": {
+        "title": "WHAT ARE THE SHIPPING COSTS FOR MY GIFT VOUCHER?",
+        "content": "For all gift voucher orders at Nataquashop, shipping costs are **100% FREE!**"
+      }
+    },
+    "loyaltyCard": {
+      "title": "LOYALTY CARD",
+      "conditions": {
+        "title": "WHAT ARE THE CONDITIONS TO BENEFIT FROM LOYALTY POINTS?",
+        "content": "For each order placed on the site, I accumulate loyalty points. For each euro spent, one loyalty point is awarded to me. Loyalty points are valid for 6 months."
+      },
+      "howToUse": {
+        "title": "HOW TO USE MY LOYALTY POINTS?",
+        "content": "For each order, I can choose to use my loyalty points and obtain the gift that corresponds to the number of points acquired."
+      }
+    },
+    "customerService": {
+      "title": "CUSTOMER RELATIONS SERVICE",
+      "contact": {
+        "title": "I NEED ADVICE, BY WHAT MEANS CAN I CONTACT YOU?",
+        "content": "- By phone: +33 (05) 55 80 42 51\n\n- By e-mail: nicolas@nataquashop.com"
+      }
+    }
+  },
+  "about": {
+    "title": "ABOUT",
+    "hero": {
+      "title": "Nataquashop",
+      "subtitle": "Your swimwear specialist since 2020"
+    },
+    "story": {
+      "title": "Our Story",
+      "content": "Nataquashop was born from a swimmer's passion for his sport. Founded in 2020, our company has set itself the mission of providing swimmers of all levels with quality, comfortable and high-performance swimwear.\n\nBased in Jarnages, Haute-Vienne, we have developed recognized expertise in the selection and customization of swimwear for clubs, competitors and leisure swimmers."
+    },
+    "values": {
+      "title": "Our Values",
+      "quality": {
+        "title": "Quality",
+        "description": "We select only products from brands recognized for their technical excellence and durability."
+      },
+      "service": {
+        "title": "Customer Service",
+        "description": "Our team is here to listen to you, advise you and support you in your choices, from beginner to confirmed competitor."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We offer advanced customization services to meet the specific needs of each swimmer and each club."
+      },
+      "passion": {
+        "title": "Passion",
+        "description": "Our love for aquatic sports drives us to constantly improve our services and offer you the best."
+      }
+    },
+    "team": {
+      "title": "The Team",
+      "nicolas": {
+        "name": "Nicolas",
+        "role": "Founder & CEO",
+        "description": "Passionate about swimming since his earliest years, Nicolas created Nataquashop to share his passion and offer swimmers quality equipment. His technical expertise and knowledge of the sports world make him your privileged contact."
+      },
+      "caroline": {
+        "name": "Caroline",
+        "role": "Founder & CEO",
+        "description": "Caroline, a former high-level swimmer, brings her sports expertise and passion for swimming to Nataquashop. Her competition experience and knowledge of professional swimmers' needs allow us to offer advice and equipment adapted to all levels."
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "address": "Route d'Aubusson, 23140 Jarnages",
+      "email": "nicolas@nataquashop.com",
+      "phone": "05 55 XX XX XX",
+      "hours": "Monday - Friday: 9:00 AM - 6:00 PM"
+    }
+  },
+  "legal": {
+    "notices": {
+      "title": "LEGAL NOTICES",
+      "sections": {
+        "publisher": {
+          "title": "PUBLISHER",
+          "content": "In accordance with the provisions of Article 6 III-1 of Law No. 2004-575 of June 21, 2004 on confidence in the digital economy, we inform you that:\n\nThis site is the property of Nataquashop, with a capital of €120,000 whose registered office is located at Route d'Aubusson 23140 JARNAGES. E-mail: nicolas@nataquashop.com, registered with the RCS under number 51293438100041"
+        },
+        "conception": {
+          "title": "DESIGN",
+          "content": "SQUAAD SAS\n3 rue du Buffet, 4410 CLISSON\nhello@squaad.io"
+        },
+        "hosting": {
+          "title": "HOSTING",
+          "content": "Euro Web SARL\n13 av. Charles de Gaulle\n92100 Boulogne"
+        },
+        "personalData": {
+          "title": "PERSONAL DATA",
+          "content": "In compliance with the provisions of the law of January 6, 1978 relating to data processing, files and freedoms, as amended, the automated processing of personal data carried out from the website has been declared to the National Commission for Information Technology and Liberties (CNIL) which issued a receipt under number n°1390730.\n\nNataquashop makes services available to the user on this site. To benefit from them, the user undertakes to respect the following \"terms of use\". If he does not accept them, Nataquashop asks him to leave the site."
+        },
+        "siteContent": {
+          "title": "SITE CONTENT",
+          "content": "This Internet site is provided as a service to the people who visit it. Nataquashop reserves the right to delete, modify, or complete the information provided on this site at any time and for any reason whatsoever, without any prior notice being necessary.\n\nThe user acknowledges having been informed that this site is accessible 24 hours a day and 7 days a week, except in cases of force majeure, computer difficulties, difficulties related to the structure of communication networks or technical difficulties.\n\nFor maintenance reasons, Nataquashop may interrupt the site and will endeavor to notify users in advance."
+        },
+        "intellectualProperty": {
+          "title": "INTELLECTUAL PROPERTY",
+          "content": "The general structure, as well as the software, texts, animated or not images, sounds, know-how...., and all other elements composing the site are the property of Nataquashop. The user has the authorization to consult the data it contains for his sole personal non-commercial use, which excludes any commercial exploitation at a local, national or international level.\n\nNataquashop reminds, in particular, that no logo, text, sound, graphic or image contained in the site may be copied, reproduced, modified, published, issued, posted, transmitted or distributed in whole or in part by any means whatsoever without its prior written authorization. Any total or partial representation of this site, without the express authorization of Nataquashop is prohibited and would constitute a counterfeit sanctioned by articles L.335-2 and following of the Intellectual Property Code. The same applies to the databases appearing on the website which are protected by the provisions of the law of July 1, 1998 transposing into the Intellectual Property Code the European directive of March 11, 1996 relating to the legal protection of databases. Any total or partial reproduction of these trademarks or logos made from the elements of the site without the express authorization of Nataquashop is therefore prohibited, within the meaning of article L.713-2 of the Intellectual Property Code."
+        },
+        "hyperlinks": {
+          "title": "HYPERLINKS",
+          "content": "The pages of this Internet site may present links with other sites or make references to other sites. Nataquashop does not guarantee the content of these other sites and cannot be held responsible for damages resulting from the use of the content of these sites. Links to other sites are provided only for the convenience of the user of this Internet site.\n\nNataquashop is not responsible for the existence and content of links from other sites to its site. Users and visitors of the website cannot set up a hyperlink to this site without the express and prior authorization of Nataquashop."
+        },
+        "liability": {
+          "title": "LIABILITIES",
+          "content": "Nataquashop cannot be held responsible for any direct or indirect damage resulting from an interruption, any malfunction whatsoever, and this for any reason whatsoever, or even any direct and indirect damage which would result, in any way, from a connection to the site. The connection of any person to the site is done under their full responsibility.\n\nNataquashop does everything possible to offer users available and verified information and/or tools but cannot be held responsible for errors, lack of availability of information and/or the presence of viruses on its site. The information provided by Nataquashop is for informational purposes only. Nataquashop cannot guarantee the accuracy, completeness, timeliness of the information disseminated on its site. Consequently, the user acknowledges using this information under his exclusive responsibility."
+        },
+        "dataProtection": {
+          "title": "PERSONAL DATA PROTECTION",
+          "content": "The user is also informed that, in accordance with article 32 of the law on data processing, files and freedoms of January 6, 1978 as amended, the information essential for the processing and execution of requests, are indicated by an asterisk. The other information requested, for which the answer is optional, are intended to better know the users and thus to improve the services offered to them. The user has a right of access, rectification and deletion with regard to the information concerning him (articles 39 and 40 of the modified Data Protection Act) which he can exercise by sending a letter to Nataquashop, Route d'Aubusson 23140 JARNAGES.\n\nThe user can access, through links present on the site, partner sites which may not be governed by these provisions for the protection of personal data. The user is, consequently, invited to examine the rules applicable to the use and disclosure of the information that he will have communicated on these sites."
+        }
+      }
+    },
+    "terms": {
+      "title": "TERMS AND CONDITIONS OF SALE",
+      "articles": {
+        "1": {
+          "title": "Article 1: Object",
+          "content": "These general terms and conditions of sale have the purpose, on the one hand, of informing any buyer about the conditions and terms under which NATAQUASHOP proceeds with the sale and delivery of ordered products, and on the other hand, of defining the rights and obligations of the parties within the framework of the sale of products by NATAQUASHOP to its client. They apply, without restriction or reservation, to all sales of products offered by NATAQUASHOP on its website www.nataquashop.com. Consequently, the fact that any person orders a product offered for sale on the NATAQUASHOP website implies full and complete acceptance of these general terms and conditions of sale, which the buyer acknowledges having been aware of prior to his order. NATAQUASHOP reserves the right to modify these general terms and conditions of sale at any time."
+        },
+        "2": {
+          "title": "Article 2: Prices",
+          "content": "The selling prices of products online on the NATAQUASHOP website, indicated in euros, are those in force at the time of placing the order by the buyer. They do not include packaging and shipping costs, charged in addition to the price of purchased products. Packaging and shipping costs will appear on the invoice, before the buyer validates the order.\n\nThe selling prices of products can be modified by NATAQUASHOP at any time."
+        },
+        "3": {
+          "title": "Article 3: Product characteristics",
+          "content": "In accordance with Article L. 111-1 of the Consumer Code, the buyer can, prior to his order, take note, on the NATAQUASHOP website, of the essential characteristics of the product(s) he wishes to order.\n\nThe buyer selects one or more products from the different categories offered on the NATAQUASHOP website.\n\nThe offers presented by NATAQUASHOP are valid within the limits of available stocks. For products not stored in its warehouses, the offers presented by NATAQUASHOP are valid subject to availability from its suppliers which are constantly evolving.\n\nThe photographs, graphics and descriptions of products offered for sale are only indicative and in no way commit NATAQUASHOP. In the event that a supplier modifies a product, the graphic representation of it could not engage the responsibility of NATAQUASHOP, nor even affect the validity of the sale."
+        },
+        "4": {
+          "title": "Article 4: Order",
+          "content": "Any order assumes unreserved and unrestricted adherence to these general terms and conditions of sale.\n\nFrom the moment the client has validated his order, he is considered as having accepted with full knowledge and without reservation these general terms and conditions of sale, the prices, volumes and quantities of products offered for sale and ordered.\n\nThe buyer's order must be confirmed by NATAQUASHOP by email. The sale will only be considered final after sending this order confirmation to the buyer by NATAQUASHOP and collection by it of the full price. (attention, this confirmation may be delivered in the \"SPAM\" section of the buyer's inbox).\n\nNATAQUASHOP recommends that the buyer keep the information contained in the order confirmation sent by it on a paper or computer document.\n\nAll orders placed from Friday afternoon and the weekend will be processed on Monday. The 24-hour preparation period runs from Monday morning until Friday noon."
+        },
+        "5": {
+          "title": "Article 5: Payment",
+          "content": "Payment must be made online by the buyer at the time of ordering. At no time can the sums paid be considered as deposits or advances. All orders are payable in euros.\n\nTo pay for his order, the buyer has the following payment methods: credit card, telephone or bank transfer. The credit cards accepted on the NATAQUASHOP website are: Carte Bleue, Visa, and MasterCard.\n\nThe buyer guarantees NATAQUASHOP that he has the necessary authorizations to use the payment method he has chosen, when validating his order.\n\nNATAQUASHOP reserves the right to suspend or cancel any order and/or delivery, whatever its nature and level of execution, in the event of non-payment of any sum due by the buyer, in the event of a payment incident, or in the event of fraud or attempted fraud relating to the use of the NATAQUASHOP website.\n\nAs part of the fight against Internet fraud, information relating to your order may be transmitted to any third party for verification.\n\nDomiciliation: BPACA ENTREP HAUTE VIENNE\nBank code: 10907\nCounter code: 00551\nAccount number: 54221407535\nRIB key: 81\nIBAN code: FR76 1090 7005 5154 2214 0753 581\nBIC: CCBPFRPPBDX"
+        },
+        "6": {
+          "title": "Article 6: Delivery and reception of goods",
+          "content": "Products will be delivered to the address and name indicated by the buyer. Invoices can be printed from the client account. Failure to respect the procedures set out below, no claim from the buyer will be accepted.\n\nThe client must verify the condition of the order with the delivery person for any claim with our After-Sales Service."
+        },
+        "7": {
+          "title": "Article 7: General delivery terms",
+          "content": "Delivery is made to the address indicated by the buyer at the time of his order. In the event that the buyer or the recipient of the ordered products notices damage or missing items, whether on the condition or content of his package, he must report the incident to NATAQUASHOP within a maximum period of 48 hours upon receipt of the order by sending an email, otherwise the request may be refused.\n\nAccording to the Hamon law of March 17, 2014, from June 14, 2014, Nataquashop reserves a maximum period of 30 days, upon validation of the order, to deliver the order. Beyond this period, the client may cancel or maintain his order."
+        },
+        "8": {
+          "title": "Article 8: Delivery by Mondial Relay",
+          "content": "The buyer or recipient of ordered products is delivered to a relay point chosen on the www.nataquashop.com website at the time of ordering. He is notified by email or SMS of the availability of his order at the relay point and has a period of 8 days to collect his package. After this period, the package is returned to the sender and the client will have to pay the shipping costs again to receive his order. The buyer or recipient is required to verify the condition of the package in the presence of the delivery person. In the event that the buyer or recipient of the ordered products notices damage or missing items, whether on the condition or content of his package, the buyer or recipient of the ordered products must then refuse the package and report the incident to NATAQUASHOP by email within a maximum period of 48 hours upon receipt of the order, otherwise the request may be refused."
+        },
+        "9": {
+          "title": "Article 9: Delivery by Colissimo",
+          "content": "Delivery is made by the postman to the address indicated by the buyer. In case of absence, the buyer or recipient of the ordered products receives a notice of passage from his postman, which allows him to collect the ordered products at the nearest post office for a period of fifteen days, after this period, the package will be returned to the sender and the client will have to pay the shipping costs again to receive his order. The buyer or recipient of the ordered products is required to verify, in the presence of the post office employee or delivery person, the condition of the merchandise packaging and its content upon delivery. In the event that the buyer or recipient of the ordered products notices damage or missing items, whether on the condition or content of his package, the buyer or respectively the recipient of the ordered products is required: - to apply the Colissimo procedure (notably report damages due, all claims and reservations) and refuse the merchandise by immediately issuing an anomaly report to the Post Office employee (report 170). - to report these incidents to NATAQUASHOP by email within a maximum period of 48 hours upon receipt of the order, otherwise the request may be refused.\n\nSince the Covid19 crisis, Colissimo reserves the right to deliver packages directly to mailboxes without signature of receipt from the client."
+        },
+        "10": {
+          "title": "Article 10: Delivery by DPD",
+          "content": "The buyer or recipient of ordered products is delivered to his home by the delivery person of the transport company chosen by NATAQUASHOP and electronically signs a receipt. In case of absence, the buyer or recipient of the ordered product receives a notice of passage, which allows him to contact the carrier to arrange another delivery day. The buyer or recipient has a period of 10 days to claim his package, beyond this period, the package is returned to the recipient and the client will have to pay the shipping costs again to receive his order. The buyer or recipient of the ordered products is required to verify in the presence of the delivery person the condition of the package and the number of packages delivered. In the event that the buyer or recipient of the ordered products notices damage or missing items, whether on the condition or content of his package, the buyer or recipient of the ordered products must then refuse the package and report the incident to NATAQUASHOP by email within a maximum period of 30 working days upon receipt of the order, otherwise the request may be refused.\n\nIn case of delivery problems, the client must contact the non-surcharged number 09 70 80 85 66."
+        },
+        "11": {
+          "title": "Article 11: Delivery by Ici Relais",
+          "content": "The buyer or recipient of ordered products is delivered to a relay point chosen on the www.nataquashop.com website at the time of ordering. He is notified by email or SMS of the availability of his order at the relay point and has a period of 10 days to collect his package. After this period, the package is returned to the sender and the client will have to pay the shipping costs again to receive his order. The buyer or recipient is required to verify the condition of the package in the presence of the delivery person. In the event that the buyer or recipient of the ordered products notices damage or missing items, whether on the condition or content of his package, the buyer or recipient of the ordered products must then refuse the package and report the incident to NATAQUASHOP by email within a maximum period of 48 hours upon receipt of the order, otherwise the request may be refused.\n\nIn case of delivery problems, the client must contact the non-surcharged number 09 70 80 85 66."
+        },
+        "12": {
+          "title": "Article 12: Delivery by Chronopost",
+          "content": "Delivery is made by a carrier to the address indicated by the buyer. Attention, to obtain delivery on Saturday, additional costs must be paid to Nataquashop. Orders must be placed before 1 p.m.\n\nIn case of absence, the buyer or recipient of the ordered products receives a notice of passage from the carrier, which allows him to collect the ordered products at the nearest post office or at a Chronopost relay point for a period of fifteen days, after this period, the package will be returned to the sender and the client will have to pay the shipping costs again to receive his order. The buyer or recipient of the ordered products is required to verify, in the presence of the La Poste employee or delivery person, the condition of the merchandise packaging and its content upon delivery. In the event that the buyer or recipient of the ordered products notices damage or missing items, whether on the condition or content of his package, the buyer or respectively the recipient of the ordered products is required: - to apply the Chronopost procedure (notably report damages due, all claims and reservations) and refuse the merchandise by immediately issuing an anomaly report to the Chronopost employee (report 170). - to report these incidents to NATAQUASHOP by email within a maximum period of 48 working hours upon receipt of the order, otherwise the request may be refused."
+        },
+        "13": {
+          "title": "Article 13: Delivery by UPS",
+          "content": "Delivery is made by a carrier to the address indicated by the buyer. In case of absence, the buyer or recipient of the ordered products receives a notice of passage from the carrier, which allows him to collect the ordered products at a relay point or reschedule a new delivery with UPS for a period of 10 days, after this period, the package will be returned to the sender and the client will have to pay the shipping costs again to receive his order. The buyer or recipient of the ordered products is required to verify, in the presence of the UPS employee or delivery person, the condition of the merchandise packaging and its content upon delivery. In the event that the buyer or recipient of the ordered products notices damage or missing items, whether on the condition or content of his package, the buyer or respectively the recipient of the ordered products is required: - to apply the UPS procedure (notably report damages due, all claims and reservations) and refuse the merchandise by immediately issuing an anomaly report to the UPS employee - to report these incidents to NATAQUASHOP by email within a maximum period of 48 hours upon receipt of the order, otherwise the request may be refused."
+        },
+        "14": {
+          "title": "Article 14: Order processing time:",
+          "content": "The shipping time depends on the availability of the ordered items and runs from the validation of the order (upon receipt of payment). It corresponds to a processing and preparation time for my package. From the validation of the order, the shipping time for items in stock is 24 hours.\n\nThe delivery time runs from the shipment of your package from our warehouses. It corresponds to the time necessary for the delivery provider to deliver my package to the delivery address indicated when placing my order. This time varies according to the provider chosen when ordering."
+        },
+        "15": {
+          "title": "Article 15: Delivery time",
+          "content": "Delivery times are as follows: from 48 hours to 30 working days depending on the ordered items from their payment. NATAQUASHOP undertakes to indicate a date or range for the delivery time at the time of ordering. Any possible delay in terms of time cannot give rise to damages or retention or cancellation of the order by the buyer.\n\nIn any event, and in accordance with the provisions of Article L. 121-20 of the Consumer Code, the ordered products will be delivered within a maximum period of 30 days from the day following that on which the buyer recorded his order, subject to full payment of the price. In the event of non-delivery at the expiration of this period, the buyer will have the possibility of canceling his order. The sums paid by the buyer will then be refunded without delay, to the exclusion of any other compensation. The buyer must make his request in writing (email to the coordinates indicated in the contact section of the NATAQUASHOP website). NATAQUASHOP will then conduct an investigation with the relevant carrier. An investigation with the carrier can last up to 30 working days.\n\nIf during this period, the package containing the products is found, it will be at the buyer's choice either immediately redirected to the delivery location designated in the order form, or kept by NATAQUASHOP which will proceed to refund the ordered products not delivered. On the other hand, if the package containing the ordered products is not found at the end of this 30-day investigation period, NATAQUASHOP will proceed at the buyer's choice, either to refund the ordered products not delivered, or to a new shipment at NATAQUASHOP's expense of the products ordered by the buyer."
+        },
+        "16": {
+          "title": "Article 16: Order cancellation before shipment",
+          "content": "If you cancel your purchase, we will refund the amount of the item price as well as shipping costs to the bank account used to place the order."
+        },
+        "17": {
+          "title": "Article 17: Product returns",
+          "content": "Return request:\nProducts must absolutely be returned to NATAQUASHOP in perfect resale condition, in their original state (packaging, accessories, instructions...), duly sealed, and accompanied by the signed return slip.\nYou have 14 days from the date of receipt of the items to let us know (in writing) of your wish to return an item that does not suit you. To do this, go to the \"My Orders\" section of your client account and select the order from which the item to be returned comes. Select the item and click on \"request a return\". You will then receive by email a return slip to print and insert in your package.\nReturns must be made to the following address:\nNataquashop\nRoute d'Aubusson\n23140 Jarnages\nThe return costs always remain at your expense whatever the reason.\n\nProcessing your return\nYou have 14 days to ship your return package from the date of the request. Upon receipt of the return by the after-sales service, it is taken care of by a technician who verifies the content and condition of the product. You will then receive an email notification informing you of the validation of the return by the after-sales service.\nIf we receive your return within 14 days following your return request, we will refund the amount of the item price in the form of a client credit valid for 1 year (except request from the client for refund on the credit card used for the purchase).\n\nIf an order initially benefits from free shipping due to a total amount exceeding the threshold set at €69.90, the return of one or more items may result in a modification of the total amount of the order. If, following this return, the new total of the order is below the free shipping threshold, shipping costs will then be applied and deducted from the amount refunded to the client or the credit issued.\n\nIf you wish to exchange within this 14-day withdrawal period, we cover the reshipping costs of the item only if the initial order was delivered by Colissimo or Ici relais.\n\nIf a product is unavailable in your order, the amount of the item price as well as shipping costs will be credited to you.\n\nATTENTION, all club store customization orders cannot be returned or exchanged. Only the club chooses the markings, members cannot modify the club store markings.\n\nItems returned beyond 14 days\nIn the case where you return an item beyond 14 days after the date on which the request was made, no refund or exchange will be made and a payment of the shipping costs amount will be requested to return your package.\n\nIf the size doesn't fit, Nataquashop cannot be held responsible, all size correspondences are given for information purposes and not as a purchase obligation.\n\nNATAQUASHOP does not accept packages sent with postage due. All risks related to the return of the product are at the buyer's expense. Failure to respect the procedure set out above and the indicated deadlines, the buyer cannot formulate any claim for missing or non-compliant products or apparent defects of the delivered products, the products being then deemed compliant and free from any apparent defect.\n\n3/ Return for a Defective product.\nIf I receive a defective product, I make my return request as indicated above, and I report the problem to Nataquashop within a maximum period of 30 days and I must absolutely send a photo of the product by email.\nIf the supplier accepts the return for defective, a return slip will be created and must be attached to the package.\n\nUpon receipt of the item, Nataquashop sends me back the same product otherwise a credit will be credited to my client credits.\nThis credit will have a validity period of 1 year from the date of creation.\n\nIf I send back my item without agreement and it is refused, a payment of the shipping costs amount will be requested to reship my product.\n\nAttention, for a defective return, the return costs always remain at the client's expense.\n\nCDs and DVDs cannot be returned from the moment they are unsealed (Article L. 221-28, 4°, 5° and 9° of the Consumer Code)."
+        },
+        "18": {
+          "title": "Article 18: Right of withdrawal",
+          "content": "In accordance with Article L. 221-18 of the Consumer Code, the buyer has a period of 14 clear days from the date of receipt to return, at his expense, the ordered products for exchange or refund. Products must absolutely be returned to NATAQUASHOP according to the procedure described in Article 14 above.\n\nOn the other hand, in accordance with Article L.121-20-2 3° of the Consumer Code, the right of withdrawal cannot be exercised for goods made according to consumer specifications or clearly personalized. Consequently, the right of withdrawal enjoyed by consumers under the terms of Article L.221-18 of the Consumer Code cannot be exercised on any personalized product."
+        },
+        "19": {
+          "title": "Article 19: Reservation of ownership",
+          "content": "NATAQUASHOP retains full and complete ownership of the sold products until the perfect collection of the full price, in principal, fees and taxes included."
+        },
+        "20": {
+          "title": "Article 20: Responsibility",
+          "content": "NATAQUASHOP cannot be held responsible for the non-execution of the contract in the event of stock shortage or unavailability of the product due to a case of force majeure, disruption or total or partial strike, particularly of postal services and means of transport and/or communications. NATAQUASHOP cannot be held responsible for all indirect damages that could arise from the purchase of products. NATAQUASHOP cannot be responsible for all data loss, files. It is up to the buyer to carry out all necessary backups relating to his order(s). The NATAQUASHOP website also contains information from third parties, and links to other websites. NATAQUASHOP cannot in any case be held responsible for damages resulting from the use, access, or inability to use this third-party information, nor for the content of other websites."
+        },
+        "21": {
+          "title": "Article 21: Partial invalidity",
+          "content": "If one or more stipulations of these general terms and conditions of sale are held to be invalid or declared as such under a law, regulation or following a final decision of a competent court, the other stipulations will retain all their force and scope."
+        },
+        "22": {
+          "title": "Article 22: Non-waiver",
+          "content": "The fact that one of the parties does not avail itself of a breach to the other party of any of the obligations referred to within these general terms and conditions of sale cannot be interpreted for the future as a waiver of the obligation in question."
+        },
+        "23": {
+          "title": "Article 23: Data processing and freedoms",
+          "content": "The information collected by NATAQUASHOP during any order from the Buyer is necessary for the management of his order by NATAQUASHOP and its commercial partners. In accordance with the \"Data Processing and Freedoms\" law n° 78-17 of January 6, 1978, the Buyer has a right of access, rectification, opposition and deletion of data concerning him from NATAQUASHOP by contacting NATAQUASHOP by mail (coordinates indicated in the Contact section of the NATAQUASHOP website). Through NATAQUASHOP, the buyer, who has expressly given his consent, may receive commercial proposals from other organizations or companies, or be informed of NATAQUASHOP offers. If the Buyer no longer wishes to receive these proposals, he can inform NATAQUASHOP by mail or email (coordinates indicated in the Contact section of the NATAQUASHOP website)"
+        },
+        "24": {
+          "title": "Article 24: Recourse to a mediator",
+          "content": "In the event of an unresolved dispute, Nataquashop makes a mediator available to its clients.\n\nHere is a link to the mediators made available to our clients:\nhttp://www.economie.gouv.fr/mediation-conso"
+        },
+        "25": {
+          "title": "Article 25: UDI Number (Unique Syderep Identifier)",
+          "content": "According to the information mentioned in Article 19 of Law No. 2004-575 of June 21, 2004 on confidence in the digital economy, Any producer with a website communicates its IDU: N° UDI Nataquashop FR219053_11QCXV"
+        }
+      }
+    }
+  },
+  "globalfooter": {
+      "alertTitle": "BE THE FIRST TO KNOW!",
+      "newsletterDescA": "Subscribe to our newsletter ",
+      "newsletterDescB": "and receive new offers and promotions by email.",
+      "subscribeBtn": "Subscribe",
+      "legalDisclaimer": "By subscribing, you accept our privacy policy and consent to receive updates from our company.",
+      "categories": {
+        "services": "Our Services",
+        "advice": "Our Advice",
+        "customerInfo": "Customer Info",
+        "followUs": "Follow Us"
+      },
+      "servicelinks": ["Customization", "Size Guide", "Return Policy"],
+      "adviseLinks": ["About", "Legal Notices","General Terms & Conditions", "FAQ"],
+      "dataClientLinks":["Information", "Orders","Return Policy"],
+      "copyright":
+        "All rights reserved.",
+      "privacyPolicy": "Privacy Policy",
+      "terms": "Terms of Use",
+      "cookies": "Cookie Settings",
+      "emailPlaceholder": "Enter your email",
+      "newsletterTrueA": "Thank you for your registration !",
+      "newsletterTrueB": "You are now subscribed to the Nataquashop newsletter"
+    },
+  "costumerAccount":{
+    "deleteAccount":{
+      "title":"You are about to delete your account.",
+      "text":"This action will erase your personal information and you will no longer be able to access your customer area. Your previous orders will remain stored in anonymized form.",
+      "delete":"Delete my account",
+      "confirmation":"Confirmation",
+      "question":"Would you like to delete your account?",
+      "cancel":"Cancel",
+      "confirm":"Confirm"
+    },
+    "passwordError":{
+      "TOO_SHORT":"Password must contain at least 8 characters.",
+      "NO_UPPERCASE":"Password must contain at least one capital letter.",      
+      "NO_NUMBER":"Password must contain at least one number.",
+      "NO_SPECIAL":"Password must contain at least one special character.",
+      "NO_LOWERCASE":"Password must contain at least one lowercase letter."
+    },
+    "dataClient":{
+      "title":"Add an address",
+      "lastname": "Lastname",
+      "firstname": "Firstname",
+      "civility":"Civility",
+      "Mr":"Mr",
+      "Mrs":"Mrs",
+      "other":"Other",
+      "company":"Company",
+      "address":"Address",
+      "designation":"Designation",
+      "city":"City",
+      "postcode":"Postal Code",
+      "complement":"Complement",
+      "country":"Country",
+      "building":"Floor, Building",
+      "save":"Save",
+      "accountInfo":"Account information",
+      "clientNumber":"Client Number",
+      "registered":"Registered since",
+      "clubCode":"Club code",
+      "email":"Email address",
+      "phone":"Phone",
+      "mobile":"Mobile",
+      "birthdate":"Date of birth",
+      "password":"Password",
+      "editPassword":"Edit password",
+      "required":"is required",
+      "message":"Password changed successfully"
+    },
+    "updateAdress":{
+      "title":"Update my adress",
+      "delete":"Delete my adress",
+      "addDefault":"Set as default?",
+      "deleteDefault":"Remove as default?",
+      "save":"Save an address",
+      "allAddress":"All address"      
+    },
+    "orders":{
+      "title":"My orders",
+      "date":"Date",
+      "reference":"Reference",
+      "status":"Status",
+      "message":"You don't have any orders",
+      "price": "Price"
+    },
+    "actionMenu":{
+      "returnItems":"Return items",
+      "review":"Leave a review",
+      "trackPackage":"Track the package"
+    },
+    "return":{
+      "title":"My returns",
+      "date":"Date",
+      "type":"Type",
+      "shipping":"Shipping",
+      "order":"Order",
+      "message":"You don't have any order returns"
+    },
+    "review":{
+      "title":"PRODUCT REVIEW",
+      "content":"Select a product to leave a review :",
+      "placeholder":"Select a product to leave a review:",
+      "addNote":"Add your note :",
+      "titleReview":"Review title :",
+      "placeholderTitle":"Ex: Excellent product",
+      "review":"Your opinion :",
+      "placeholderText":"Describe your experience with this product...",
+      "cancel":"Cancel",
+      "publisheReview":"Publish my review",
+      "back":"Back",
+      "reviewAdded":"Your review has been successfully added"
+      
+    },
+    "creditNote":{
+      "title":"My credit note",
+      "order":"Commande",
+      "date":"Date",
+      "type":"Type",
+      "message":"You don't have any credit notes"
+    },
+    "giftVoucher":{
+      "title":"My gift vouchers",
+      "order":"Order",
+      "usedDate":"Date of use",
+      "endDate":"Expiry date",
+      "amount":"Amount",
+      "remainingAmount":"Remaining Amount",
+      "message":"You don't have gift cards"
+    },
+    "sidebar":{
+      "account":"Mon compte",
+      "infos":"My information",
+      "orders":"My orders",
+      "returs":"My returns",
+      "creditNote":"My credit note",
+      "giftVoucher":"Gift voucher",
+      "logOut":"Log out"
+    }
+  },
+  "searchbox": {
+    "noproduct": "No products found.",
+    "search": "Search for a product..."
+  },
+  "deliveryCart": {
+    "commandeResume": "Order Summary :",
+    "deliveryPrice": "Delivery price :"
+  },
+  "productCard": {
+    "retirerQuestion": "Are you sure you want to remove this product from your cart ?",
+    "annuler": "Cancel",
+    "expedition24h": "Shipping within 24h",
+    "expeditionStandard": "Standard Shipping",
+    "quantite": "Quantity",
+    "taille": "Size"
+  },
+  "review":{
+    "title":"Be the first to leave your review",
+    "close":"Close",
+    "reviews":"Buyer reviews"
+  }
+  
+} 

@@ -1,0 +1,149 @@
+stages:
+  - test
+  - build
+  - deploy
+
+variables:
+  VARIABLES_DIR: ./variables
+  VERSIONS_ENV: ./versions.env
+
+.build_config:
+  image: docker:28
+  services:
+    - docker:28-dind
+  stage: build
+  before_script:
+    - |
+      if [ "$CI_COMMIT_BRANCH" == "dev" ] || [ "$FORCE_BUILD_ENV" = "dev" ]; then
+        export IMAGE_VERSION=$CI_COMMIT_SHA
+      else
+        apk update && apk add jq
+        export IMAGE_VERSION=$(jq -r .version < apps/$APP/package.json)
+      fi
+    - export IMAGE_NAME=$CI_REGISTRY_IMAGE/$APP:$IMAGE_VERSION
+    - export APP_UPPER=$(echo $APP | tr '[:lower:]' '[:upper:]')
+    - mkdir -p $VARIABLES_DIR
+    - echo "${APP_UPPER}_IMAGE_VERSION=$IMAGE_VERSION" > $VARIABLES_DIR/$APP.env
+  script:
+    - docker build -t $IMAGE_NAME -f share/app.dockerfile --build-arg APP=$APP .
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker push $IMAGE_NAME
+  artifacts:
+    paths:
+      - $VARIABLES_DIR/$APP.env
+    expire_in: never
+  rules:
+    - if: $CI_COMMIT_BRANCH == "dev" || $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      changes:
+        - apps/$APP/**/*
+      when: always
+    - if: $FORCE_DEPLOY_ENV == "dev" || $FORCE_DEPLOY_ENV == $CI_DEFAULT_BRANCH
+      when: always
+    - when: never
+
+test:
+  image: $CI_REGISTRY/squaad.io/docker/pnpm:latest
+  stage: test
+  script:
+    - cp $TEST_ENV packages/core/.env
+    - pnpm install
+    - pnpm check-types
+    - pnpm test:unit
+    - pnpm test:integration
+  cache:
+    key: $CI_COMMIT_REF_SLUG
+    paths:
+      - .pnpm-store
+      - .turbo
+  rules:
+    - if: $CI_COMMIT_BRANCH != "dev" && $CI_COMMIT_BRANCH != $CI_DEFAULT_BRANCH
+      when: always
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      when: always
+    - when: never
+
+build_admin:
+  extends: .build_config
+  variables:
+    APP: admin
+
+build_nataquashop:
+  extends: .build_config
+  variables:
+    APP: nataquashop
+
+build_nginx:
+  extends: .build_config
+  script:
+    - docker build -t $IMAGE_NAME -f apps/nginx/Dockerfile apps/nginx
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker push $IMAGE_NAME
+  variables:
+    APP: nginx
+
+deploy:
+  image: $CI_REGISTRY/squaad.io/docker/pnpm:latest
+  stage: deploy
+  environment:
+    name: $CI_COMMIT_BRANCH
+  needs:
+    - job: build_admin
+      artifacts: true
+      optional: true
+    - job: build_nataquashop
+      artifacts: true
+      optional: true
+    - job: build_nginx
+      artifacts: true
+      optional: true
+  script:
+    - |
+      for file in $VARIABLES_DIR/*.env; do
+        [ -f "$file" ] || continue
+        APP_NAME=$(cut -d '=' -f 1 < "$file")
+        APP_VERSION=$(cut -d '=' -f 2 < "$file")
+        if grep -q "^$APP_NAME=" "$VERSIONS_ENV"; then
+          sed -i "s|^$APP_NAME=.*|$APP_NAME=$APP_VERSION|" "$VERSIONS_ENV"
+          echo "Updated $APP_NAME version to $APP_VERSION"
+        else
+          echo "$APP_NAME=$APP_VERSION" >> "$VERSIONS_ENV"
+          echo "Added $APP_NAME version to $APP_VERSION"
+        fi
+      done
+    - set -a && source $VERSIONS_ENV && set +a
+    - chmod og= $SSH_KEY 
+    - envsubst < share/docker-compose.template.yml > docker-compose.yml
+    - scp -i $SSH_KEY -o StrictHostKeyChecking=no -P $SSH_PORT docker-compose.yml $SSH_USER@$SSH_SERVER:~/docker-compose.yml
+    - scp -i $SSH_KEY -o StrictHostKeyChecking=no -P $SSH_PORT $APP_ENV $SSH_USER@$SSH_SERVER:~/.env
+    - ssh -i $SSH_KEY -o StrictHostKeyChecking=no -p $SSH_PORT $SSH_USER@$SSH_SERVER "echo $CI_JOB_TOKEN | docker login -u $CI_REGISTRY_USER --password-stdin $CI_REGISTRY"
+    - ssh -i $SSH_KEY -o StrictHostKeyChecking=no -p $SSH_PORT $SSH_USER@$SSH_SERVER "docker compose -p mlcn -f docker-compose.yml pull"
+    - ssh -i $SSH_KEY -o StrictHostKeyChecking=no -p $SSH_PORT $SSH_USER@$SSH_SERVER "docker compose -p mlcn -f docker-compose.yml up -d"
+    - ssh -i $SSH_KEY -o StrictHostKeyChecking=no -p $SSH_PORT $SSH_USER@$SSH_SERVER "rm -f ~/docker-compose.yml ~/.env"
+  artifacts:
+    paths:
+      - docker-compose.yml
+      - $VERSIONS_ENV
+    expire_in: never
+    when: always
+  cache:
+    key: "$CI_COMMIT_REF_SLUG-versions"
+    paths:
+      - $VERSIONS_ENV
+  rules:
+    - if: $CI_COMMIT_BRANCH == "dev" || $FORCE_DEPLOY_ENV == "dev"
+      when: always
+      variables:
+        SSH_USER: $DEV_SSH_USER
+        SSH_KEY: $DEV_SSH_KEY
+        SSH_SERVER: $DEV_SSH_SERVER
+        SSH_PORT: $DEV_SSH_PORT
+        APP_ENV: $DEV_APP_ENV
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH || $FORCE_DEPLOY_ENV == $CI_DEFAULT_BRANCH
+      when: always
+      variables:
+        SSH_USER: $PROD_SSH_USER
+        SSH_KEY: $PROD_SSH_KEY
+        SSH_SERVER: $PROD_SSH_SERVER
+        SSH_PORT: $PROD_SSH_PORT
+        APP_ENV: $PROD_APP_ENV
+    - when: never

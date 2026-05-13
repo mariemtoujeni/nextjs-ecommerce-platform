@@ -1,0 +1,1008 @@
+{
+  "home": {
+    "title": "Accueil - MLCN Sports",
+    "description": "Accédez à l'espace administrateur pour gérer votre compte et vos données",
+    "events":{
+      "title":"Nos événements",
+      "at":"au"
+    },
+    "banner": {
+      "cta": "Voir la gamme"    
+    },
+    "collectionHighlight": {
+      "subTitle": "Collection"
+    },
+    "news": "Nouveautés",
+    "collection": {
+      "cta": "Voir la collection"
+    },
+    "trending": {
+      "title": "NOTRE SÉLECTION TENDANCE",
+      "products": {
+        "speedo": {
+          "title": "Short Speedo Femme",
+          "description": "Collection Printemps 2024",
+          "price": "49.99",
+          "oldPrice": "69.99",
+          "button": "Acheter",
+          "addToCart": "Ajouter au panier"
+        },
+        "arena": {
+          "title": "Combinaison Arena",
+          "description": "Performance Series",
+          "price": "89.99",
+          "oldPrice": "119.99",
+          "button": "Acheter"
+        }
+      }
+    },
+    "categories": {
+      "competition": "COMBINAISONS COMPETITION",
+      "beach": "SHORTS DE PLAGE",
+      "training": "SHORT COMPETITION"
+    },
+    "beachwear": {
+      "title": "COLLECTION",
+      "subtitle": "Maillots de plage"
+    },
+    "bestsellers": {
+      "title": "LES MEILLEURES VENTES"
+    }
+  },
+  "cart": {
+    "title": "Mon panier",
+    "addDiscount": "Ajouter une réduction",
+    "next": "Continuer",
+    "moreOne":"Plus que",
+    "inStock":"en stock",
+    "last":"Dernier en stock",
+    "added": "Produit ajouté au panier !",
+    "shipping": {
+      "title": "Livraison",
+      "back": "Retour",
+      "relayPoint": {
+        "title": "Point relais",
+        "select": "Sélectionner",
+        "billingAddress": "Adresse de facturation",
+        "edit": "Modifier",
+        "validation": "Veuillez sélectionner un point relais pour continuer"
+      },
+      "relayPointSelect": {
+        "title": "Choisir un point relais"
+      },
+      "address": {
+        "title": "Sélectionner une adresse",
+        "cancel": "Annuler",
+        "add": "Ajouter",
+        "select": "Sélectionner"
+      },
+      "addressForm": {
+        "title": "Ajouter une adresse",
+        "designation": "Désignation",
+        "designationPlaceholder": "Nommer l'adresse",
+        "address": "Adresse",
+        "addressPlaceholder": "Adresse",
+        "postalCode": "Code postal",
+        "postalCodePlaceholder": "Code postal",
+        "city": "Ville",
+        "cityPlaceholder": "Ville",
+        "complement": "Complément",
+        "complementPlaceholder": "Complément",
+        "building": "Etage, Bâtiment",
+        "buildingPlaceholder": "Etage, Bâtiment",
+        "country": "Pays",
+        "countryPlaceholder": "Sélectionner un pays",
+        "cancel": "Annuler",
+        "add": "Ajouter"
+       
+      },
+      "home": {
+        "title": "À domicile",
+        "deliveryAddress": "Adresse de livraison",
+        "billingAddress": "Adresse de facturation",
+        "edit": "Modifier",
+        "shippingOptions": {
+          "standard": "Standard",
+          "express": "Express"
+        }
+      },
+      "store": {
+        "title": "Au magasin",
+        "billingAddress": "Adresse de facturation",
+        "edit": "Modifier"
+      }
+    },
+    "payment": {
+      "title": "Paiement",
+      "back": "Retour",
+      "card": {
+        "title": "Carte bancaire",
+        "orderSummary": "Récapitulatif de la commande"
+      },
+      "transfer": {
+        "title": "Virement bancaire",
+        "orderSummary": "Récapitulatif de la commande",
+        "bankInfo": "Informations bancaires",
+        "instructions": "Afin de valider votre commande, merci de cliquer sur le bouton \"Valider la commande\" et d'effectuer un virement vers le RIB suivant.",
+        "fields": {
+          "accountHolder": "Titulaire du compte",
+          "bankCode": "Code banque",
+          "branchCode": "Code guichet",
+          "accountNumber": "Numéro de compte",
+          "ribKey": "Clé RIB",
+          "iban": "IBAN",
+          "bic": "BIC"
+        }
+      },
+      "summary": {
+        "subtotalExclVAT": "Sous-total HT",
+        "subtotalIncVAT": "Sous-total TTC",
+        "shipping": "Frais de livraison",
+        "discount": "Réduction(s)",
+        "total": "Total"
+      }
+    },
+    "footer": {
+      "resume": {
+        "total": "Total : {total}",
+        "vatIncluded": "*TVA comprise",
+        "button": "Continuer vers la livraison"
+      },
+      "shipping": {
+        "text": "Votre commande sera expédiée sous 24h après validation du paiement. Les délais de livraison varient selon le mode de livraison choisi.",
+        "button": "Continuer vers le paiement"
+      },
+      "payment": {
+        "text": "En payant cette commande vous acceptez, vous acceptez les conditions générales de vente et la politique de confidentialité.",
+        "button": "Valider la commande"
+      }
+    },
+    "discount": {
+      "promoTab": "Code promo",
+      "giftTab": "Chèque cadeau",
+      "promoLabel": "Code",
+      "promoPlaceholder": "Code promo",
+      "giftLabel": "Code chèque cadeau",
+      "giftPlaceholder": "Chèque cadeau",
+      "cancel": "Annuler",
+      "add": "Ajouter"
+    },
+    "noproduct": "Aucun produit",
+    "personalized": "Personnalisé"
+  },
+  "product": {
+    "similarProducts": {
+      "title": "Produits similaires",
+      "color": "Couleur",
+      "size": "Taille",
+      "description": "Description",
+      "specification": "Spécification",
+      "alertStock": "M'alerter du retour en stock",
+      "outStock": "Rupture de stock",
+      "notification": "Vous serez notifié dès le retour en stock.",
+      "allPictures": "Toutes les photos",
+      "buy": "Acheter",
+      "personnalization": "Souhaitez-vous personnaliser votre produit ? ",
+      "placeholder":"Choisir une option"
+    },
+    "review":"VOIR LES AVIS",
+    "filter": "Filtrer",
+    "buy": "Acheter",
+    "back":"Retour",
+    "availableImage": "Aucune image disponible",
+    "personnalization":{
+      "description":"Ajoutez une touche unique à votre article — inscrivez un prénom, un mot ou un petit message.",
+      "placeholder":"Saisissez ici votre texte de personnalisation..."
+    }
+  },
+  "login": {
+    "title": "SE CONNECTER",
+    "subtitle": "Accédez à votre espace client",
+    "email": "Adresse email",
+    "emailPlaceholder": "john.doe@exemple.fr",
+    "password": "Mot de passe",
+    "passwordPlaceholder": "••••",
+    "forgot": "Mot de passe oublié ?",
+    "button": "Se connecter",
+    "noAccount": "Pas encore de compte ?",
+    "signup": "S'inscrire",
+    "backToShop": "Retour à la boutique",
+    "fillRequired": "Merci de remplir tous les champs obligatoires.",
+    "emailMatch": "Les emails ne correspondent pas.",
+    "passwordMatch": "Les mots de passe ne correspondent pas.",
+    "acceptCGU": "Vous devez accepter les CGU et la Politique de Confidentialité.",
+    "incorrect":"Email ou mot de passe incorrect"
+  },
+  "common": {
+    "civilities": {
+      "monsieur": "Monsieur",
+      "madame": "Madame"
+    }
+  },
+  "signup": {
+    "title": "S'INSCRIRE",
+    "alreadyAccount": "Vous avez déjà un compte ?",
+    "login": "Connexion",
+    "choice": {
+      "title": "VOS INFORMATIONS",
+      "subtitle": "Choisissez votre type de compte",
+      "particulier": {
+        "description": "Compte personnel pour les nageurs individuels",
+        "button": "Créer un compte particulier"
+      },
+      "club": {
+        "description": "Compte pour les clubs et associations",
+        "button": "Créer un compte club/collectivité"
+      },
+      "backToLogin": "Retour à la connexion"
+    },
+    "particulier": {
+      "step1": {
+        "title": "VOS INFORMATIONS",
+        "subtitle": "Étape 1 sur 2",
+        "fields": {
+          "civilite": "Civilité",
+          "civilitePlaceholder": "Sélectionner",
+          "nom": "Nom",
+          "nomPlaceholder": "Votre nom",
+          "prenom": "Prénom",
+          "prenomPlaceholder": "Votre prénom",
+          "societe": "Société (opt)",
+          "societePlaceholder": "Nom de votre société",
+          "adresse": "Adresse",
+          "adressePlaceholder": "Votre adresse",
+          "codePostal": "Code postal",
+          "codePostalPlaceholder": "Code postal",
+          "ville": "Ville",
+          "villePlaceholder": "Votre ville",
+          "complement": "Complément d'adresse (opt)",
+          "complementPlaceholder": "Complément",
+          "etage": "Étage/Bâtiment (opt)",
+          "etagePlaceholder": "Étage, bâtiment",
+          "pays": "Pays",
+          "paysPlaceholder": "Sélectionner un pays"
+        },
+        "next": "Suivant",
+        "back": "Retour"
+      },
+      "step2": {
+        "title": "VOTRE COMPTE",
+        "subtitle": "Étape 2 sur 2",
+        "fields": {
+          "email": "Adresse email",
+          "emailPlaceholder": "john.doe@exemple.fr",
+          "emailConfirm": "Confirmer l'email",
+          "emailConfirmPlaceholder": "Confirmez votre email",
+          "password": "Mot de passe",
+          "passwordPlaceholder": "••••••••",
+          "passwordConfirm": "Confirmer le mot de passe",
+          "passwordConfirmPlaceholder": "Confirmez votre mot de passe",
+          "telephone": "Téléphone fixe",
+          "telephonePlaceholder": "01 23 45 67 89",
+          "portable": "Téléphone portable",
+          "portablePlaceholder": "06 12 34 56 78",
+          "birthdate": "Date de naissance",
+          "birthdatePlaceholder": "JJ/MM/AAAA",
+          "codeClub": "Code club (opt)",
+          "codeClubPlaceholder": "Code de votre club"
+        },
+        "cgu": "J'accepte les conditions générales d'utilisation et la politique de confidentialité",
+        "submit": "Créer mon compte",
+        "back": "Retour"
+      }
+    },
+    "club": {
+      "step1": {
+        "title": "INFORMATIONS DU REPRÉSENTANT DU CLUB",
+        "subtitle": "Étape 1 sur 2",
+        "fields": {
+          "civilite": "Civilité",
+          "civilitePlaceholder": "Sélectionner",
+          "nom": "Nom",
+          "nomPlaceholder": "Votre nom",
+          "prenom": "Prénom",
+          "prenomPlaceholder": "Votre prénom",
+          "adresse": "Adresse",
+          "adressePlaceholder": "Votre adresse",
+          "codePostal": "Code postal",
+          "codePostalPlaceholder": "Code postal",
+          "ville": "Ville",
+          "villePlaceholder": "Votre ville",
+          "complement": "Complément d'adresse (opt)",
+          "complementPlaceholder": "Complément",
+          "etage": "Étage/Bâtiment (opt)",
+          "etagePlaceholder": "Étage, bâtiment",
+          "pays": "Pays",
+          "paysPlaceholder": "Sélectionner un pays"
+        },
+        "next": "Suivant",
+        "back": "Retour"
+      },
+      "step2": {
+        "title": "CRÉATION DU COMPTE CLUB",
+        "subtitle": "Étape 2 sur 2",
+        "fields": {
+          "nomClub": "Nom du club",
+          "nomClubPlaceholder": "Nom de votre club",
+          "president": "Président",
+          "presidentPlaceholder": "Nom du président",
+          "referent": "Référent",
+          "referentPlaceholder": "Nom du référent",
+          "email": "Adresse email",
+          "emailPlaceholder": "club@exemple.fr",
+          "emailConfirm": "Confirmer l'email",
+          "emailConfirmPlaceholder": "Confirmez votre email",
+          "password": "Mot de passe",
+          "passwordPlaceholder": "••••••••",
+          "passwordConfirm": "Confirmer le mot de passe",
+          "passwordConfirmPlaceholder": "Confirmez votre mot de passe",
+          "telephone": "Téléphone fixe",
+          "telephonePlaceholder": "01 23 45 67 89",
+          "portable": "Téléphone portable",
+          "portablePlaceholder": "06 12 34 56 78",
+          "siren": "Numéro SIREN",
+          "sirenPlaceholder": "123 456 789",
+          "tva": "Numéro de TVA (opt)",
+          "tvaPlaceholder": "FR12345678901"
+        },
+        "cgu": "J'accepte les conditions générales d'utilisation et la politique de confidentialité",
+        "submit": "Créer le compte club",
+        "back": "Retour"
+      }
+    }
+  },
+  "forgotPassword": {
+    "title": "Mot de passe oublié",
+    "emailLabel": "Adresse email",
+    "emailPlaceholder": "john.doe@exemple.fr",
+    "submit": "Réinitialiser le mot de passe",
+    "cancel": "Annuler",
+    "notFound":"Aucun compte n’est associé à cet email.",
+    "sendEmail":"Un email de réinitialisation a été envoyé !",
+    "unableSend":"Impossible d’envoyer l’email. Réessaie plus tard.",
+    "error":"Une erreur inattendue est survenue.",
+    "loading":"Chargement...",
+    "password":"Mot de passe",
+    "confirm":"Confirmer le Mot de passe",
+    "enter":"Entrez votre nouveau mot de passe",
+    "confirmNew":"Confirmez votre nouveau mot de passe",
+    "errorMismatch": "Les mots de passe ne correspondent pas",
+    "errorMissingToken": "Le lien de réinitialisation est invalide ou expiré.",
+    "errorResetFailed": "La réinitialisation du mot de passe a échoué. Veuillez réessayer.",
+    "errorInvalidToken": "Token invalide",
+    "errorTokenExpired": "Lien de réinitialisation du mot de passe expiré",
+    "errorUnexpected": "Une erreur inattendue est survenue. Réessayez plus tard.",
+    "success": "Votre mot de passe a été réinitialisé avec succès !",
+    "close": "Fermer"
+  },
+  "navbar": {
+    "scrollingText": "Texte qui doit défiler"
+  },
+  "sizeGuide": {
+    "title": "GUIDE DES TAILLES",
+    "subtitle": "CES VALEURS SONT DONNÉES À TITRE INDICATIF",
+    "content": "Nous nous basons sur des \"tests taille\" de produits que nous effectuons à l'arrivée de chaque nouveau modèle, mais aussi sur l'expérience acquise tout au long de l'année, lors des essayages sur stands, organisés lors des compétitions.\n\nMalgré une volonté constante de vous orienter le plus précisément possible, les valeurs indiquées ci-dessous ne sont données qu'à titre indicatif et n'engage en aucun cas une responsabilité contractuelle en cas d'erreur de taille.\n\nAussi, nous restons à votre disposition par mail ou bien par téléphone, pour vous aider à connaître la taille qui vous correspond le mieux.\n\nPar mail ou par téléphone : merci de nous communiquer la marque et la taille de votre maillot d'entraînement habituel, vos mensurations (taille et poids), nos techniciens vous orienteront aux mieux."
+  },
+  "customization": {
+    "title": "NOS SERVICES DE PERSONNALISATION",
+    "intro": "Nous personnalisons tous types de textile, à l’unité ou en grande série, en adaptant le procédé à vos attentes. Nos services sont proposés aux entreprises, aux clubs sportifs, aux particuliers, ainsi qu’aux adhérents. Un support de communication indispensable pour vos événements, maillot de sport, etc.",
+    "services": {
+      "bag": "SAC",
+      "textiles": "TEXTILES",
+      "swimsuit": "MAILLOT",
+      "cap": "BONNET"
+    },
+    "process": {
+      "title": "PROCESSUS DE PERSONNALISATION",
+      "content": "Le transfert est un moyen d'impression pour la personnalisation de textile, bagagerie, etc. et permet une souplesse d'impression sur différents types de supports par le biais du transfert sérigraphique.\n\nUn atelier de production sérigraphique équipé d'un plotter de découpe et d'une presse pneumatique double, disposant de 4 tailles différentes de plateaux, pour un maximum de précision d'impression. Ces machines permettent de répondre à toutes les demandes d'impression sur différents supports."
+    },
+    "deadlines": {
+      "title": "DÉLAIS DE FABRICATION",
+      "content": "Nos délais habituels sont environ 3 semaines à validation du BAT. Ces délais comprennent les opérations de manutention, pliage, emballage, mais ils peuvent varier si nous devons commander du matériel dont nous ne sommes pas responsables des délais de fabrication.\n\nLes délais de livraison sont à rajouter à ces délais. Possibilité de production plus rapide avec des frais d'urgence.\n\nAttention, toutes les commandes d'articles personnalisés ne pourront être ni reprises, ni échangées.\n\nSi la taille ne convient pas, Nataquashop ne pourra être tenu pour responsable, toutes les tailles sont données à titre indicatif et non une obligation d'achat.\n\nSeul le club choisit les marquages, les adhérents ne peuvent pas modifier les marquages de la boutique club."
+    },
+    "care": {
+      "title": "ENTRETIEN DES TEXTILE MARQUÉS",
+      "content": "Les vêtements imprimés en sérigraphie ne nécessitent pas un traitement spécial au lavage. Nous conseillons un lavage à 30°C avec une lessive peu abrasive."
+    },
+    "howTo": {
+      "title": "JE VEUX PERSONNALISER UN PRODUIT, COMMENT FAIRE ?",
+      "individual": {
+        "title": "JE SUIS UN PARTICULIER : JE PERSONNALISE MON PRODUIT AVEC MON PRÉNOM",
+        "content": "Passez commande «normalement» en sélectionnant votre article, la taille et la couleur. Puis ajoutez à votre panier le «marquage».\n\nMerci de noter à la fin de votre commande (pendant l'étape 4 (CONFIRMATION) de votre commande) votre prénom dans la rubrique \"laisser un commentaire\", ainsi que la couleur d'impression et une police d'écriture si vous en voulez une en particulier.\n\nPar défaut d'information, le prénom communiqué sera fait avec la première lettre en majuscule et les autres en minuscule dans une police d'écriture standard."
+      },
+      "business": {
+        "title": "JE SUIS UN CLUB / UNE ENTREPRISE / UNE COLLECTIVITÉ",
+        "content": "Une demande de devis sera nécessaire, écrivez à Nicolas : devisnataqua@gmail.com, en indiquant vos souhaits (choix du textile, bonnets, équipements, ...), quantité, couleurs....\n\nN'oubliez pas de nous fournir votre logo par mail sous format Adobe Illustrator, EPS, PNG ou JPG en nous précisant les couleurs souhaitées (les codes couleur Pantone si possible)."
+      },
+      "caps": {
+        "title": "JE SOUHAITE COMMANDER DES BONNETS PERSONNALISÉS",
+        "content": "Pour les bonnets personnalisés, contactez-nous directement par email à devisnataqua@gmail.com avec vos spécifications."
+      }
+    }
+  },
+  "returnPolicy": {
+    "title": "POLITIQUE DE RETOUR",
+    "satisfiedSection": {
+      "title": "SATISFAIT OU REMBOURSÉ",
+      "content": "Vous changez d'avis ? Nos produits ne vous procurent pas entière satisfaction ?\n\nSachez que pour tout achat réalisé sur www.nataquashop.com, le client a un délai de rétractation de 14 jours à compter de la date de réception des articles pour nous retourner un produit qui ne correspond finalement pas à vos attentes. Notez que votre produit doit être retourné dans son état d'origine en parfait état de revente. Tout produit incomplet ne pourra vous être retourné, prenez donc soin de renvoyer tous les accessoires initialement inclus (emballages, manuels, etc.), dans leur boîte d'origine accompagné du bon de retour."
+    },
+    "returns": {
+      "title": "RETOURS",
+      "canReturn": {
+        "title": "PUIS-JE RETOURNER DES PRODUITS COMMANDÉS ?",
+        "content": "Le client a un délai de rétractation de 14 jours* à compter de la date de réception des articles pour nous retourner un produit qui ne correspond finalement pas à vos attentes.\n\nLes articles qui incluent une personnalisation (marquage par exemple) ne bénéficient pas de cette possibilité de retour.\n\nLes produits doivent être retourné avec étiquette et emballage d'origine et non essayé dans l'eau.\n\nTout produit renvoyé qui ne serait pas présentable à la revente, ne pourra être accepté (article porté dans l'eau, emballage absent...)\n\n* le délai de 14 jours s'entend entre la date de réception par le client du colis et la date de réexpédition (cachet de la poste faisant foi) du produit à retourner."
+      },
+      "howToReturn": {
+        "title": "COMMENT PUIS-JE RETOURNER DES PRODUITS COMMANDÉS ?",
+        "content": "Je me rends dans la rubrique « Mes commandes » de mon compte client et sélectionne la commande dont est issu l'article à retourner.\n\nJe sélectionne l'article et je clique sur « demander un retour ».\n\nAprès validation par le service après vente, je reçois alors par mail un bon de retour à imprimer et à insérer dans mon colis.\n\nLes retours sont à envoyer à l'adresse suivante :\nNataquashop\nRoute d'Aubusson\n23140 Jarnages\n\nA réception de mon retour par le service après-vente, celui-ci est pris en charge par un technicien qui vérifie le contenu et l'état du produit. Je reçois alors une notification par e-mail m'avisant de la validation de mon retour par le service après-vente.\n\nPour plus de sécurité, nous vous conseillons fortement de renvoyer votre retour avec un numéro de suivi. En cas de non réception du retour par nataquashop, votre demande ne pourra aboutir."
+      },
+      "whereToFind": {
+        "title": "OÙ JE PEUX RETROUVER MON BON DE RETOUR ?",
+        "content": "Afin de trouver mon bon de retour, je me connecte sur « Mon Compte », je sélectionne l'onglet « Avoirs et Retours ». Je clique ensuite sur la commande concernée et je sélectionne l'onglet « Imprimer mon bon de retour ».\n\nJ'insère par la suite ce bon de retour dans mon colis et je l'envoie au Service Après-vente de Nataquashop."
+      }
+    },
+    "exchanges": {
+      "title": "ÉCHANGES",
+      "howToExchange": {
+        "title": "COMMENT PROCÉDER À UN ÉCHANGE ?",
+        "content": "La procédure de retour est identique à celle décrite précédemment.\n\nÀ réception et validation de votre retour par le service après-vente, vous recevrez une notification par email.\n\nSi le même produit dans une autre taille est disponible, nous vous l'expédions. Sinon, le montant de l'article et les frais de port vous sont crédités sur vos avoirs clients (à condition que le délai de rétractation de 14 jours entre la réception de l'article et la date de réexpédition vers l'entreprise soit respecté), vous permettant de recommander l'article désiré sans frais supplémentaires.\n\nException : pour les commandes expédiées via Chronopost, Exapaq/DPD et UPS, le montant de l'article et les frais de livraison pour \"Ici Relais\" vous sont crédités.\n\nAucun échange n'est possible pour les commandes expédiées hors France métropolitaine.\n\nVous pouvez identifier le montant de vos avoirs clients dans votre compte client à tout moment.\n\nLes avoirs clients sont valables 1 an à compter de leur date de création.\n\nPour les clubs : si un échange est demandé et que le montant de l'échange est inférieur à 100€, des frais de port peuvent être facturés."
+      },
+      "shippingCosts": {
+        "title": "QUI PREND EN CHARGE LES FRAIS DE RÉEXPÉDITION LORS D'UN ÉCHANGE ?",
+        "content": "Lors d'un échange, les frais de réexpédition des articles sont pris en charge par Nataquashop si le délai de 14 jours est respecté et que l'expédition s'effectue via le transporteur \"Mondial Relay\".\n\nException : pour les commandes expédiées via Chronopost, le montant de l'article et les frais de livraison pour \"Ici Relais\" vous sont crédités.\n\nLes avoirs clients sont valables 1 an à compter de leur date de création."
+      },
+      "timeframe": {
+        "title": "SOUS QUEL DÉLAI S'EFFECTUE MON ÉCHANGE ?",
+        "content": "Lors d'un échange, Nataquashop doit attendre la réception du retour avant d'expédier l'article désiré (à condition qu'il s'agisse du même article mais dans une autre taille).\n\nSi le produit n'est pas disponible, le montant de l'article est crédité sur vos avoirs clients, ainsi que les frais de port.\n\nLes avoirs clients sont valables 1 an à compter de leur date de création.\n\nLa procédure d'échange n'est pas immédiate et peut prendre 4 à 6 jours après réception du retour (selon les services de livraison choisis pour le retour et la réexpédition de l'article).\n\nSi l'échange est urgent, vous pouvez passer une nouvelle commande pour l'article désiré, votre commande sera traitée rapidement (selon les horaires).\n\nIl est préférable d'envoyer votre retour avec un numéro de suivi ; si le colis n'est pas reçu par Nataquashop, le retour ne peut être validé."
+      }
+    },
+    "creditRequest": {
+      "title": "DEMANDE D'AVOIR SUR SON COMPTE CLIENT",
+      "howToCredit": {
+        "title": "COMMENT PROCÉDER À UNE DEMANDE D'AVOIR ?",
+        "content": "Je souhaite annuler mon achat mais bénéficier d'un avoir afin de procéder à une nouvelle commande. Nataquashop me crédite d'un avoir selon les conditions suivantes :\n\n- Si je suis dans le délai légal de rétractation de 14 jours*, Nataquashop me crédite le montant de l'article et des frais de port sur mon compte client afin que je passe commande sans aucun frais supplémentaire.\n\n- Si je suis en dehors de ce délai légal, seul le montant de l'article me sera crédité.\n\n*le délai de 14 jours s'entend entre la date de réception par le client du colis et la date de réexpédition du produit (cachet de la poste faisant foi).\n\nPour des commandes ayant été livrées en dehors de la France Métropolitaine ou de Monaco, les frais d'expédition ne seront pas crédités.\n\n- Si je suis hors du délai de 30 jours, mon retour sera refusé et je devrais alors envoyer un chèque du montant des frais d'expédition pour que Nataquashop me réexpédie mon retour.\n\nPour les commandes expédiées en Chronopost, le montant de l'article et des frais de livraison en Ici Relais me seront crédités.\n\nL'avoir sous forme de crédits client aura une durée de validité de 1 an à compter de la date de création."
+      },
+      "warning": "ATTENTION : Si une commande bénéficie initialement de la gratuité des frais de livraison en raison d'un montant total dépassant le seuil fixé à 69,90€, le retour d'un ou de plusieurs articles peut entraîner une modification du montant total de la commande. Si, suite à ce retour, le nouveau total de la commande est inférieur au seuil de gratuité des frais de livraison, les frais de port seront alors appliqués et déduits du montant remboursé au client ou de l'avoir émis.",
+      "timeframe": {
+        "title": "SOUS QUEL DÉLAI SUIS-JE CRÉDITÉ SUR MON COMPTE CLIENT ?",
+        "content": "Dès la validation de mon retour, le Service Après Vente me crédite mon compte client. Je reçois alors un mail pour m'en informer.\n\nCet avoir aura une durée de validité de 1 an à compter de la date de création."
+      }
+    },
+    "refundRequest": {
+      "title": "DEMANDE DE REMBOURSEMENT",
+      "howToRefund": {
+        "title": "COMMENT PROCÉDER À UNE DEMANDE DE REMBOURSEMENT ?",
+        "content": "Je souhaite annuler mon achat et me faire rembourser sur mon compte bancaire. Nataquashop me rembourse selon les conditions suivantes :\n\n- Si la demande de remboursement intervient dans le délai légal de rétractation de 14 jours* à réception du colis, le remboursement du (ou des) article est effectif.\n\n- Si la demande intervient au delà du délai légal de rétractation de 14 jours, le montant correspondant à vos articles vous seront crédités sur votre compte client (avoir). Nous ne remboursons alors votre commande que sous forme d'avoir.\n\nCet avoir aura une durée de validité de 1 an à compter de la date de création.\n\nPour des commandes ayant été livrées en dehors de la France Métropolitaine ou de Monaco, les frais d'expédition ne seront pas remboursés.\n\nLes produits soldés ne seront pas remboursés, seul un avoir du montant de l'article sera effectué.\n\nPour toute commande payée avec chèque cadeau, le remboursement n'est pas possible, seul un avoir sur crédit client sera effectué."
+      },
+      "warning": "ATTENTION: Si une commande bénéficie initialement de la gratuité des frais de livraison en raison d'un montant total dépassant le seuil fixé à 69,90€, le retour d'un ou de plusieurs articles peut entraîner une modification du montant total de la commande. Si, suite à ce retour, le nouveau total de la commande est inférieur au seuil de gratuité des frais de livraison, les frais de port seront alors appliqués et déduits du montant remboursé au client ou de l'avoir émis.",
+      "timeframe": {
+        "title": "SOUS QUEL DÉLAI SUIS-JE REMBOURSÉ ?",
+        "content": "Les remboursements sur compte bancaire peuvent être faits dans un délai de 14 jours à réception des produits retournés.\n\nLes commandes club sont remboursées par chèque. Vous recevrez le chèque de remboursement dans un délai de 30 jours suite à la réception des produits retournés."
+      }
+    },
+    "defectiveProduct": {
+      "title": "RETOUR PRODUIT DÉFECTUEUX, ERREUR DE PRODUIT OU PRODUIT MANQUANT",
+      "defective": {
+        "title": "MON PRODUIT EST DÉFECTUEUX",
+        "content": "Si je reçois un produit défectueux, je fais ma demande de retour comme indiqué ci-dessus, et je signale le problème à Nataquashop dans un délai de 30 jours maximum et je devrais impérativement renvoyé par mail une photo du produit.\n\nSi le fournisseur accepte le retour pour défectueux, un bon de retour sera créé et devra être joint au colis.\n\nA réception de l'article, Nataquashop me renvoie le même produit sinon un avoir sera crédité sur mes crédits client.\n\nL'avoir sous forme de crédits client aura une durée de validité de 1 an à compter de la date de création.\n\nCet avoir aura une durée de validité de 1 an à compter de la date de création.\n\nSi je renvoie mon article sans accord et que celui-ci est refusé, un chèque du montant des frais d'expédition me sera demandé afin de me réexpédier mon produit.\n\nAttention, pour un retour défectueux, les frais de retour restent toujours à la charge du client."
+      },
+      "wrongProduct": {
+        "title": "JE N'AI PAS REÇU LE PRODUIT QUE J'AI COMMANDÉ",
+        "content": "À réception de ma commande, je me rends compte que le produit reçu ne correspond pas au produit commandé, je prends contact avec Nataquashop pour signaler le problème dans un délai de 30 jours maximum.\n\nUn bon de retour sera créé et à joindre au colis et une étiquette de retour vous sera envoyée pour l'expédition du colis. A réception du colis, le Service Après Ventes analysera mon produit pour voir s'il s'agit bien d'une erreur.\n\nSi mon retour est accepté, Nataquashop me renvoi le bon produit sinon un avoir sera crédité sur mes crédits clients.\n\nL'avoir sous forme de crédits client aura une durée de validité de 1 an à compter de la date de création.\n\nSi mon retour est refusé, un chèque du montant des frais d'expédition me sera demandé afin de me réexpédier mon produit.\n\nJe dispose d'un délai de 30 jours après réception de ma commande pour signaler le problème.\n\nSi la photo du produit ne correspond pas au produit reçu (couleurs de bretelles ou différence de contraste...), ceci n'est pas un motif d'erreur d'expédition."
+      },
+      "missingProduct": {
+        "title": "IL MANQUE UN PRODUIT DANS MA COMMANDE",
+        "content": "J'ai reçu ma commande et un produit est manquant, je contacte Nataquashop pour signaler mon problème dans un délai de 10 jours maximum.\n\nL'information est remontée au service expédition et si l'avarie est observée mon produit sera expédié.\n\nAttention, certains modèles, de la marque Turbo, de la même taille peuvent être différents selon les productions (coloris, taille, design...). Nataquashop ne pourra être tenu pour responsable de cette différend motif de retour ne pourra donc pas être qualifié de défectueux, il s'agira d'un retour normal."
+      }
+    }
+  },
+  "faq": {
+    "title": "QUESTIONS FRÉQUENTES",
+    "myAccount": {
+      "title": "MON COMPTE",
+      "createAccount": {
+        "title": "COMMENT CRÉER MON ESPACE CLIENT CLUB?",
+        "content": "Il me suffit de saisir une adresse e-mail, un mot de passe et de compléter notre formulaire d'inscription. Je reçois alors un mail afin de valider mon compte client. Attention, mon adresse e-mail doit être valide pour pouvoir recevoir toutes les notifications liées au suivi de ma commande. De même, une même adresse mail ne peut servir d'identifiant à deux comptes client Nataquashop."
+      },
+      "forgotPassword": {
+        "title": "COMMENT M'IDENTIFIER SI J'AI PERDU MON MOT DE PASSE?",
+        "content": "J'ai oublié mon mot de passe : accessible sur la page d'accueil de l'espace client. Ensuite, je vais tout simplement renseigner l'e-mail que j'utilise sur mon compte client et mon conseiller Nataquashop me renverra mon mot de passe à cette adresse."
+      },
+      "modifyAddress": {
+        "title": "PUIS-JE MODIFIER MON ADRESSE DE FACTURATION ET/OU MON ADRESSE DE LIVRAISON?",
+        "content": "Bien sûr que oui. Je vais sur « Mon Compte ». Ensuite je clique sur « Mes informations » et maintenant je peux modifier mon adresse de facturation et/ou mon adresse de livraison ainsi que celle de livraison. Attention, chaque nouvelle adresse de livraison doit être nommée (par exemple : adresse bureau, adresse vacances, etc.). Si le champ « désignation » n'est pas renseigné, cette nouvelle adresse ne sera pas prise en compte et n'apparaîtra pas lors de cette étape dans le panier."
+      }
+    },
+    "myOrders": {
+      "title": "MES COMMANDES",
+      "howToOrder": {
+        "title": "COMMENT PUIS-JE PASSER MA COMMANDE?",
+        "content": "**Étape 1:** Je sélectionne mon article\n\n**Étape 2:** J'ajoute mon article dans mon panier\n\n**Étape 3:** Je valide mon panier en cliquant sur «Commander»"
+      }
+    },
+    "shippingDelivery": {
+      "title": "EXPÉDITION ET LIVRAISON",
+      "deliveryDifference": {
+        "title": "QUELLE EST LA DIFFÉRENCE ENTRE UN DÉLAI DE LIVRAISON ET UN DÉLAI D'EXPÉDITION?",
+        "content": "**Le délai d'expédition** court à partir de la validation de la commande et correspond à une durée de traitement et de préparation de mon colis.\n\n**Le délai de livraison** court à partir de l'expédition de votre colis de nos entrepôts. Il correspond au délai nécessaire au prestataire chargé de la livraison pour me faire parvenir mon colis à l'adresse de livraison indiquée au passage de ma commande."
+      },
+      "processingTime": {
+        "title": "QUEL EST LE DÉLAI MOYEN DE TRAITEMENT DE MA COMMANDE?",
+        "content": "**Le délai d'expédition** dépend de la disponibilité des articles commandés. A partir de la validation de la commande (à réception du règlement), le délai d'expédition pour les articles en stock est de 24 heures.\n\n**Le délai de livraison** des colis varie selon le prestataire choisi lors de la commande. Tous ces délais sont précisés sur la page «modalités de livraison». Je peux y accéder en cliquant sur le lien présent en bas de la page d'accueil du site."
+      },
+      "shippingCosts": {
+        "title": "QUELS SONT LES FRAIS DE LIVRAISON POUR MA COMMANDE?",
+        "content": "Les frais de livraison dépendent du prestataire choisi et du poids du colis. ». Ils correspondent aux frais d'expédition du colis (emballage etc.) et aux frais de livraison par transporteur.\n\nIls sont indiqués dans l'étape 3 du panier: «expédition».\n\nJe peux également retrouver toutes ces informations sur la page «modalités de livraison». Je peux y accéder en cliquant sur le lien présent en bas de la page d'accueil du site."
+      },
+      "packageNotReceived": {
+        "title": "MON COLIS A ÉTÉ EXPÉDIÉ MAIS JE NE L'AI TOUJOURS PAS REÇU, QUE FAIRE?",
+        "content": "Malgré un suivi quotidien de l'ensemble des colis expédiés par un conseiller SAV Nataquashop, il arrive qu'un colis puisse ne pas être livré dans les conditions optimales désirées.\n\nEn commandant chez Nataquashop, je bénéficie systématiquement de l'assurance 100% sérénité. Nataquashop garantit à l'ensemble de ses clients un Service Après Vente irréprochable et prend entièrement à charge les frais causés par un endommagement des articles lors de la livraison. Il est néanmoins exigé que le client ait signalé à réception de son colis tout problème éventuel au transporteur.\n\nDans ce cas de figure, j'informe donc au plus tôt le Service Après Vente Nataquashop."
+      }
+    },
+    "return": {
+      "title": "RETOUR",
+      "canReturn": {
+        "title": "PUIS-JE RETOURNER DES PRODUITS COMMANDÉS?",
+        "content": "Nataquashop me permet de bénéficier d'un délai de rétractation de 14 jours à compter de la date de réception des articles pour retourner un produit qui ne correspond finalement pas à mes attentes. Les articles qui incluent une personnalisation (marquage par exemple) ne bénéficient pas de cette possibilité de retour.\n\nLe produit doit être retourné dans son état d'origine. Tout produit incomplet pourra m'être retourné; Il faut donc renvoyer tous les accessoires initialement inclus (emballages, manuels, etc.), dans leur boîte d'origine accompagnés du bon de retour."
+      },
+      "howToReturn": {
+        "title": "COMMENT PUIS-JE RETOURNER DES PRODUITS COMMANDÉS?",
+        "content": "Je me rends dans la rubrique «Mes commandes» de mon compte client et sélectionne la commande dont est issu l'article à retourner. Je sélectionne l'article et je clique sur «demander un retour». Je reçois alors par mail un bon de retour à imprimer et à insérer dans mon colis.\n\nA réception de mon retour par le service après-vente, celui-ci est pris en charge par un technicien qui vérifie le contenu et l'état du produit. Je reçois alors une notification par e-mail m'avisant de l'enregistrement de mon retour par le service après-vente.\n\nJ'effectue mon retour à l'adresse suivante:\n**Nataquashop / Service retour**\n**Route d'Aubusson**\n**23140 Jarnages**"
+      },
+      "findReturnSlip": {
+        "title": "OÙ EST-CE QUE JE PEUX TROUVER MON BON DE RETOUR?",
+        "content": "Afin de trouver mon bon de retour, je me connecte sur «Mon Compte», je sélectionne l'onglet «Avoirs et Retours». Je clique ensuite sur la commande concernée et je sélectionne l'onglet «Imprimer mon bon de retour». J'insère par la suite ce bon de retour dans mon colis et je l'envoie au Service Après-vente de Nataquashop."
+      },
+      "returnCosts": {
+        "title": "EN CAS DE RENVOI DE PRODUIT, QUI PREND EN CHARGE LES FRAIS DE RETOUR?",
+        "content": "Les frais de retour sont à ma charge, sauf en cas d'erreur de préparation du colis."
+      }
+    },
+    "exchange": {
+      "title": "ÉCHANGE",
+      "howToExchange": {
+        "title": "COMMENT PROCÉDER À UN ÉCHANGE?",
+        "content": "La procédure de retour est la même que décrite précédemment. A réception et validation de mon retour par le service après-vente, je reçois une notification de sa prise en charge par e-mail.\n\nUne nouvelle commande est expédiée si le même article dans une taille différente est disponible sinon, je suis alors crédité du montant de l'article et des frais de livraison sur mes crédits client afin de pouvoir repasser commande de l'article désiré.\n\nJe peux à tout moment identifier le montant de mes crédits client dans mon compte client.\n\nSi je suis un adhérent club, un avoir du montant de l'article uniquement sera crédité sur mon compte client afin que je repasse commande.\n\nSi je suis un club, si un échange est demandé et que le montant de l'échange est inférieur à 100€, les frais de port pourront être facturés.\n\nL'avoir sous forme de crédits client aura une durée de validité de 6 mois à compter de la date de création."
+      },
+      "reshippingCosts": {
+        "title": "QUI PREND EN CHARGE LES FRAIS DE RÉEXPÉDITION LORS D'UN ÉCHANGE?",
+        "content": "Lors d'un échange, les frais de réexpédition de mes articles sont pris en charge par Nataquashop (sous réserve respect du délai légal des 14 jours à réception du colis). Seuls les frais de retour sont à ma charge.\n\nNataquashop ne peut être tenu responsable en cas de perte du colis lors du retour"
+      },
+      "exchangeTimeframe": {
+        "title": "SOUS QUEL DÉLAI S'EFFECTUE MON ÉCHANGE?",
+        "content": "Lors d'un échange, Nataquashop est dans l'obligation d'attendre la réception de mon retour pour me réexpédier l'article désiré.\n\nLa procédure d'échange n'est donc pas immédiate et peut prendre 4 à 6 jours (selon les services de livraison choisis pour effectuer le retour et réexpédier l'article).\n\nSi l'échange est urgent, je peux repasser une nouvelle commande de l'article désiré, ma commande sera donc traitée le jour même.\n\nJe dois donc avancer les frais, l'équipe Nataquashop me remboursera par la suite sur mon compte bancaire dès réception de mon colis de retour."
+      }
+    },
+    "creditRequest": {
+      "title": "DEMANDE D'AVOIR SUR SON COMPTE CLIENT",
+      "howToCredit": {
+        "title": "COMMENT PROCÉDER À UNE DEMANDE D'AVOIR?",
+        "content": "Je souhaite annuler mon achat mais bénéficier d'un avoir afin de procéder à une nouvelle commande. Nataquashop me crédite d'un avoir selon les conditions suivantes:\n\n- Si je retourne un produit issu d'une commande comprenant plusieurs articles, les frais d'expédition initiaux ne me sont pas crédités.\n\n- Si je retourne une commande dans sa globalité, le montant des articles mais aussi celui des frais d'expédition me sont crédités (si le délai légal des 14 jours est respecté)\n\nDans tous les cas, les frais de retour restent à ma charge.\n\nPour des commandes ayant été livrées en dehors de la France Métropolitaine ou de Monaco, seuls seront crédités les frais d'expédition en mode standard.\n\nCet avoir aura une durée de validité de 6 mois à compter de la date de création."
+      },
+      "creditTimeframe": {
+        "title": "SOUS QUEL DÉLAI SUIS-JE CRÉDITÉ SUR MON COMPTE CLIENT?",
+        "content": "Dès la validation de mon retour, le Service Après Vente me crédite mon compte client. Je reçois alors un mail pour m'en informer.\n\nCet avoir aura une durée de validité de 6 mois à compter de sa date de création."
+      }
+    },
+    "payment": {
+      "title": "PAIEMENT",
+      "security": {
+        "title": "LES PAIEMENTS SUR NATAQUASHOP.COM SONT-ILS SÉCURISÉS?",
+        "content": "Nataquashop.com a opté pour le système «Cyberplus Paiement» de la Banque Populaire. Il utilise la technologie SSL, standard de sécurité la plus répandue en matière de transactions électroniques sécurisées, je n'ai donc plus aucun doute pour le paiement sécurisé en faisant des achats sur ce site."
+      },
+      "paymentMethods": {
+        "title": "QUELS SONT LES MOYENS DE PAIEMENT PROPOSÉS?",
+        "content": "Chez Nataquashop, vous avez la possibilité de régler avec plusieurs moyens de paiement: Virement bancaire, Carte Bancaire et Chèque."
+      },
+      "onlineCard": {
+        "title": "Carte bancaire en ligne",
+        "content": "C'est le moyen le plus rapide pour finaliser ma commande. Ce paiement est parfaitement sécurisé.\n\nNataquashop a opté pour le système «cyberplus paiement» de la banque populaire. Il utilise la technologie SSL, standard de sécurité le plus répandue en matière de transactions électroniques sécurisées.\n\nA aucun moment de la transaction, le commerçant n'a accès à mes coordonnées bancaires. Le traitement est immédiat. Dès le passage de ma commande, mon compte bancaire est prélevé. Ceci évite tout stockage de mes coordonnées (ce qui est par ailleurs formellement interdit par la loi).\n\nJe peux régler avec une carte CB, VISA ou MASTERCARD."
+      },
+      "bankTransfer": {
+        "title": "Virement bancaire",
+        "content": "Pour toutes mes commandes, je peux également payer par virement bancaire.\n\nJe trouve ci-dessous les coordonnées de la banque :\nNom de la banque: Banque Populaire Aquitaine Centre Atlantique\nDomiciliation : BPACA Guéret La Marche\nCode banque : 10907\nCode guichet: 00551\nNuméro de compte: 54221407535\nClé RIB: 81\nCode IBAN: FR76 1090 7005 5154 2214 0753 581\nBIC: CCBPFRPPBDX\n\nJ'adresse un e-mail à nicolas@nataquashop.com pour préciser la date du virement."
+      },
+      "check": {
+        "title": "Chèque bancaire ou postal",
+        "content": "Nataquashop n'accepte pas les chèques."
+      }
+    },
+    "giftVouchers": {
+      "title": "CHÈQUES CADEAUX",
+      "amounts": {
+        "title": "QUELS SONT LES DIFFÉRENTS MONTANTS POUR LES CHÈQUES CADEAUX ?",
+        "content": "Les montants des chèques cadeaux varient de 10 euros à 300 euros. Je peux offrir autant de chèques cadeaux que je souhaite. Une fois avoir validé ma commande, je reçois le(s) chèque(s) cadeau(x) avec les codes d'activation."
+      },
+      "validity": {
+        "title": "QUELLE EST LA DATE DE VALIDITÉ POUR LES CHÈQUES CADEAUX ?",
+        "content": "Tous les chèques cadeaux chez Nataquashop sont valables 1 an à compter de la date d'achat."
+      },
+      "whereToUse": {
+        "title": "OÙ PUIS-JE PROFITER DE MON CHÈQUE CADEAU ?",
+        "content": "Je peux activer le code de mon chèque cadeau uniquement sur le site www.nataquashop.com. Attention! Les chèques cadeaux ne sont utilisables que sur le site en ligne !"
+      },
+      "shippingCosts": {
+        "title": "QUELS SONT LES FRAIS DE LIVRAISON POUR MON CHÈQUE CADEAU?",
+        "content": "Pour toutes commandes de chèques cadeaux chez Nataquashop, les frais de port sont **100% OFFERTS!**"
+      }
+    },
+    "loyaltyCard": {
+      "title": "CARTE DE FIDÉLITÉ",
+      "conditions": {
+        "title": "QUELS SONT LES CONDITIONS POUR BÉNÉFICIER DE POINTS DE FIDÉLITÉ ?",
+        "content": "À chaque commande effectuée sur le site, je cumule des points fidélité. A chaque euro dépensé, un point fidélité m'est attribué. Les points fidélités sont valables 6 mois."
+      },
+      "howToUse": {
+        "title": "COMMENT UTILISER MES POINTS DE FIDÉLITÉS?",
+        "content": "À chaque commande, je peux choisir d'utiliser mes points fidélité et obtenir le cadeau qui correspond au nombre de points acquis."
+      }
+    },
+    "customerService": {
+      "title": "SERVICE RELATION CLIENTÈLE",
+      "contact": {
+        "title": "J'AI BESOIN D'UN CONSEIL, PAR QUELS MOYENS PUIS-JE VOUS CONTACTER ?",
+        "content": "- Par téléphone: +33 (05) 55 80 42 51\n\n- Par e-mail: nicolas@nataquashop.com"
+      }
+    }
+  },
+  "about": {
+    "title": "À PROPOS",
+    "hero": {
+      "title": "Nataquashop",
+      "subtitle": "Votre spécialiste du maillot de bain depuis 2020"
+    },
+    "story": {
+      "title": "Notre Histoire",
+      "content": "Nataquashop est née de la passion d'un nageur pour son sport. Fondée en 2020, notre entreprise s'est donnée pour mission de fournir aux nageurs de tous niveaux des maillots de bain de qualité, confortables et performants.\n\nBasés à Jarnages, en Haute-Vienne, nous avons développé une expertise reconnue dans la sélection et la personnalisation de maillots de bain pour les clubs, les compétiteurs et les nageurs loisirs."
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "quality": {
+        "title": "Qualité",
+        "description": "Nous sélectionnons uniquement des produits de marques reconnues pour leur excellence technique et leur durabilité."
+      },
+      "service": {
+        "title": "Service Client",
+        "description": "Notre équipe est à votre écoute pour vous conseiller et vous accompagner dans vos choix, du débutant au compétiteur confirmé."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Nous proposons des services de personnalisation avancés pour répondre aux besoins spécifiques de chaque nageur et de chaque club."
+      },
+      "passion": {
+        "title": "Passion",
+        "description": "Notre amour du sport aquatique nous pousse à toujours améliorer nos services et à vous proposer le meilleur."
+      }
+    },
+    "team": {
+      "title": "L'Équipe",
+      "nicolas": {
+        "name": "Nicolas",
+        "role": "Fondateur & Dirigeant",
+        "description": "Passionné de natation depuis son plus jeune âge, Nicolas a créé Nataquashop pour partager sa passion et offrir aux nageurs des équipements de qualité. Son expertise technique et sa connaissance du milieu sportif font de lui votre interlocuteur privilégié."
+      },
+      "caroline": {
+        "name": "Caroline",
+        "role": "Fondatrice & Dirigeante",
+        "description": "Caroline, ancienne nageuse de haut niveau, apporte son expertise sportive et sa passion pour la natation à Nataquashop. Son expérience en compétition et sa connaissance des besoins des nageurs professionnels nous permettent d'offrir des conseils et des équipements adaptés à tous les niveaux."
+      }
+    },
+    "contact": {
+      "title": "Nous Contacter",
+      "address": "Route d'Aubusson, 23140 Jarnages",
+      "email": "nicolas@nataquashop.com",
+      "phone": "05 55 XX XX XX",
+      "hours": "Lundi - Vendredi : 9h00 - 18h00"
+    }
+  },
+  "legal": {
+    "notices": {
+      "title": "MENTIONS LÉGALES",
+      "sections": {
+        "publisher": {
+          "title": "ÉDITEUR",
+          "content": "Conformément aux dispositions de l'article 6 III-1 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, nous vous informons que :\n\nLe présent site est la propriété de Nataquashop, au capital de 120000€ dont le siège social est situé Route d'Aubusson 23140 JARNAGES. E-mail : nicolas@nataquashop.com, inscrite au RCS sous le numéro 51293438100041"
+        },
+        "conception": {
+          "title": "CONCEPTION",
+          "content": "SQUAAD SAS\n3 rue du Buffet, 4410 CLISSON\nhello@squaad.io"
+        },
+        "hosting": {
+          "title": "HÉBERGEMENT",
+          "content": "Euro Web SARL\n13 av. Charles de Gaulle\n92100 Boulogne"
+        },
+        "personalData": {
+          "title": "DONNÉES PERSONELLES",
+          "content": "En conformité avec les dispositions de la loi 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, modifiée les traitements automatisés de données nominatives réalisés à partir du site web ont fait l'objet d'une déclaration auprès de la Commission Nationale de l'Informatique et des Libertés (CNIL) qui a délivré un récépissé sous le numéro n°1390730.\n\nNataquashop met, à la disposition de l'utilisateur, des services sur ce site. Pour en bénéficier, l'utilisateur s'engage à respecter les \"conditions d'utilisation\" suivantes. S'il ne les accepte pas Nataquashop le prie de quitter le site."
+        },
+        "siteContent": {
+          "title": "CONTENU DU SITE",
+          "content": "Ce site Internet est fourni en tant que service aux personnes qui le visitent. Nataquashop se réserve le droit de supprimer, de modifier, ou de compléter les renseignements fournis sur ce site à tout moment et pour quelque raison que ce soit, sans qu'aucun préavis ne soit nécessaire.\n\nL'utilisateur reconnaît avoir été informé que le présent site est accessible 24 heures sur 24 et 7 jours sur 7, à l'exception des cas de force majeure, difficultés informatiques, difficultés liées à la structure des réseaux de communications ou de difficultés techniques.\n\nPour des raisons de maintenance, Nataquashop pourra interrompre le site et s'efforcera d'en avertir préalablement les utilisateurs."
+        },
+        "intellectualProperty": {
+          "title": "PROPRIÉTÉ INTELLECTUELLE",
+          "content": "La structure générale, ainsi que les logiciels, textes, images animées ou non, sons, savoir-faire...., et tous les autres éléments composant le site sont la propriété de Nataquashop. L'utilisateur a l'autorisation de consulter les données qu'il contient pour sa seule utilisation personnelle non commerciale, ce qui exclut toute exploitation commerciale à un niveau local, national ou international.\n\nNataquashop rappelle, notamment, qu'aucun logo, texte, son, graphique ou image contenus dans le site ne pourra être en tout ou partie copié, reproduit, modifié, publié, émis, posté, transmis ou distribué par quelque moyens que ce soit sans son autorisation préalable écrite. Toute représentation totale ou partielle de ce site, sans l'autorisation expresse de Nataquashop est interdite et constituerait une contrefaçon sanctionnée par les articles L.335-2 et suivants du Code de la propriété intellectuelle. Il est en de même des bases de données figurant sur le site web qui sont protégées par les dispositions de la loi du 1er juillet 1998 portant transposition dans le Code de la propriété intellectuelle de la directive européenne du 11 mars 1996 relative à la protection juridique des bases de données. Toute reproduction totale ou partielle de ces marques ou de ces logos effectués à partir des éléments du site sans l'autorisation expresse de Nataquashop est donc prohibée, au sens de l'article L.713-2 du Code de la propriété intellectuelle."
+        },
+        "hyperlinks": {
+          "title": "LIENS HYPERTEXTE",
+          "content": "Les pages de ce site Internet pourront présenter des liens avec d'autres sites ou faire des renvois à d'autres sites. Nataquashop ne se porte pas garant du contenu de ces autres sites et ne pourra pas être tenu responsable des dommages résultant de l'utilisation du contenu de ces sites. Les liens vers d'autres sites ne sont fournis que pour la commodité de l'utilisateur de ce site Internet.\n\nNataquashop n'est pas responsable de l'existence et du contenu de liens d'autres sites vers son site. Les utilisateurs et visiteurs du site web ne peuvent mettre en place un hyperlien en direction de ce site sans l'autorisation expresse et préalable de Nataquashop."
+        },
+        "liability": {
+          "title": "RESPONSABILITÉS",
+          "content": "Nataquashop ne pourra être tenu responsable de tout dommage direct ou indirect issu d'une interruption, d'un dysfonctionnement quel qu'il soit, et ce pour quelque raison que ce soit, ou encore de tout dommage direct et indirect qui résulterait, d'une façon quelconque, d'une connexion au site. La connexion de toute personne au site se fait sous son entière responsabilité.\n\nNataquashop met tout en oeuvre pour offrir aux utilisateurs des informations et/ou outils disponibles et vérifiés mais ne saurait être tenu pour responsable des erreurs, d'une absence de disponibilité des informations et/ou de la présence de virus sur son site. Les informations fournies par Nataquashop le sont à titre indicatif. Nataquashop ne saurait garantir l'exactitude, la complétude, l'actualité des informations diffusées sur son site. En conséquence, l'utilisateur reconnaît utiliser ces informations sous sa responsabilité exclusive."
+        },
+        "dataProtection": {
+          "title": "PROTECTION DES DONNÉES PERSONNELLES",
+          "content": "L'utilisateur est également informé que, conformément à l'article 32 de la loi informatique, fichiers et libertés du 6 janvier 1978 modifiée, les informations indispensables au traitement et à l'exécution des demandes, sont signalées par un astérisque. Les autres informations demandées, pour lesquelles la réponse est facultative, sont destinées à mieux connaître les utilisateurs et ainsi à améliorer les services qui leurs sont proposés. L'utilisateur dispose d'un droit d'accès, de rectification et de suppression quant aux informations qui le concerne (articles 39 et 40 de la loi Informatique et Libertés modifiée) qu'il peut exercer en adressant un courrier à Nataquashop, Route d'Aubusson 23140 JARNAGES.\n\nL'utilisateur peut accéder, par des liens présents sur le site, aux sites de partenaires qui peuvent ne pas être régis par les présentes dispositions de protection des données personnelles. L'utilisateur est, en conséquence, invité à examiner les règles applicables à l'utilisation et la divulgation des informations qu'il aura communiquées sur ces sites."
+        }
+      }
+    },
+    "terms": {
+      "title": "CONDITIONS GÉNÉRALES DE VENTE",
+      "articles": {
+        "1": {
+          "title": "Article 1 : Objet",
+          "content": "Les présentes conditions générales de vente ont pour objet, d'une part, d'informer tout acheteur sur les conditions et modalités dans lesquelles NATAQUASHOP procède à la vente et à la livraison des produits commandés et, d'autre part, de définir les droits et obligations des parties dans le cadre de la vente de produits par NATAQUASHOP à son client. Elles s'appliquent, sans restriction ni réserve, à l'ensemble des ventes, des produits proposés par NATAQUASHOP sur son site Internet www.nataquashop.com. En conséquence, le fait pour toute personne de commander un produit proposé à la vente sur le site Internet de NATAQUASHOP emporte acceptation pleine et entière des présentes conditions générales de vente, dont l'acheteur reconnaît avoir pris connaissance préalablement à sa commande. NATAQUASHOP se réserve le droit de modifier à tout moment les présentes conditions générales de vente."
+        },
+        "2": {
+          "title": "Article 2 : Tarifs",
+          "content": "Les prix de vente des produits en ligne sur le site internet de NATAQUASHOP, indiqués en euros, sont ceux en vigueur au moment de la passation de sa commande par l'acheteur. Ils ne comprennent pas les frais d'emballage et d'expédition, facturés en supplément du prix des produits achetés. Les frais d'emballage et d'expédition apparaitront sur la facture, avant la validation de la commande par l'acheteur.\n\nLes prix de vente des produits peuvent être modifiés par NATAQUASHOP à tout moment."
+        },
+        "3": {
+          "title": "Article 3 : Caractéristiques des produits",
+          "content": "Conformément à l'article L. 111-1 du code de la consommation, l'acheteur peut, préalablement à sa commande, prendre connaissance, sur le site internet de NATAQUASHOP, des caractéristiques essentielles du ou des produit(s) qu'il désire commander.\n\nL'acheteur sélectionne un ou plusieurs produits parmi les différentes catégories proposées sur le site internet de NATAQUASHOP.\n\nLes offres présentées par NATAQUASHOP sont valables dans la limite des stocks disponibles. Pour les produits non stockés dans ses entrepôts, les offres présentées par NATAQUASHOP sont valables sous réserve de disponibilités chez ses fournisseurs qui évoluent constamment.\n\nLes photographies, graphismes et les descriptions des produits proposés à la vente ne sont qu'indicatifs et n'engagent nullement NATAQUASHOP. Au cas où un fournisseur modifierait un produit, la représentation graphique de celui-ci ne saurait engager la responsabilité de NATAQUASHOP, ni même affecter la validité de la vente."
+        },
+        "4": {
+          "title": "Article 4 : Commande",
+          "content": "Toute commande suppose l'adhésion sans restriction ni réserve aux présentes conditions générales de vente.\n\nA partir du moment où le client a validé sa commande, il est considéré comme ayant accepté en connaissance de cause et sans réserve les présentes conditions générales de vente, les prix, volumes et quantités des produits proposés à la vente et commandés.\n\nLa commande de l'acheteur devra être confirmée par NATAQUASHOP par courrier électronique. La vente ne sera considérée comme définitive qu'après l'envoi à l'acheteur de cette confirmation de commande par NATAQUASHOP et encaissement par celle-ci de l'intégralité du prix. (attention, cette confirmation peut être délivré dans la rubrique \"SPAM\" de la boite de réception de l'acheteur).\n\nNATAQUASHOP recommande à l'acheteur de conserver les informations contenues dans la confirmation de commande envoyée par elle sur un document papier ou informatique.\n\nToutes les commandes passées du vendredi début d'après midi et le week-end, seront traitées le lundi. Le délai des 24h de préparation court à partir du lundi matin jusqu'au vendredi midi."
+        },
+        "5": {
+          "title": "Article 5 : Paiement",
+          "content": "Le paiement doit être réalisé lors de la commande en ligne par l'acheteur. A aucun moment, les sommes versées ne pourront être considérées comme des arrhes ou des acomptes. Toutes les commandes sont payables en euros.\n\nPour régler sa commande, l'acheteur dispose des modes de paiement suivants : carte bancaire, téléphone ou virement. Les cartes bancaires acceptées sur le site internet NATAQUASHOP sont les suivantes : Carte Bleue, Visa, et MasterCard.\n\nL'acheteur garantit à NATAQUASHOP qu'il dispose des autorisations nécessaires pour utiliser le mode de paiement qu'il aura choisi, lors de la validation de sa commande.\n\nNATAQUASHOP se réserve le droit de suspendre ou d'annuler toute commande et/ou livraison, quelle que soit sa nature et niveau d'exécution, en cas de non-paiement de toute somme qui serait due par l'acheteur, en cas d'incident de paiement, ou en cas de fraude ou tentative de fraude relative à l'utilisation du site internet de NATAQUASHOP.\n\nDans le cadre de la lutte contre les fraudes sur Internet, les informations relatives à votre commande pourront être transmises à tout tiers pour vérification.\n\nDomiciliation : BPACA ENTREP HAUTE VIENNE\nCode banque : 10907\nCode guichet : 00551\nNuméro de compte : 54221407535\nClé RIB : 81\nCode IBAN : FR76 1090 7005 5154 2214 0753 581\nBIC : CCBPFRPPBDX"
+        },
+        "6": {
+          "title": "Article 6 : Livraison et réception des marchandises",
+          "content": "Les produits seront livrés à l'adresse et au nom indiqués par l'acheteur. Les factures sont imprimables depuis le compte du client. Faute de respect des procédures exposées ci-dessous, aucune réclamation de l'acheteur ne sera acceptée.\n\nLe client doit vérifier l'état de la commande avec le livreur pour toute réclamation auprès de notre Service Après Vente."
+        },
+        "7": {
+          "title": "Article 7 : Modalités générales de livraison",
+          "content": "La livraison est effectuée à l'adresse indiquée par l'acheteur au moment de sa commande. Dans l'hypothèse où l'acheteur ou le destinataire des produits commandés constaterait une avarie ou un manquant, que ce soit sur l'état ou le contenu de son colis, il devra signaler l'incident à NATAQUASHOP dans un délai maximum de 48h à réception de la commande en envoyant un mail, sinon la demande pourra être refusée.\n\nSelon la loi Hamon du 17 mars 2014, à compter du 14 juin 2014, Nataquashop se réserve un délai maximum de 30 jours, à validation de la commande, pour livrer la commande. Au delà de ce délai, le client pourra annuler ou maintenir sa commande."
+        },
+        "8": {
+          "title": "Article 8 : Livraison par Mondial Relais",
+          "content": "L'acheteur ou le destinataire de produits commandés est livré dans un point relais choisi sur le site www.nataquashop.com au moment de la commande. Il est avisé par mail ou par sms de la disponibilité de sa commande au point relais et dispose d'un délai de 8 jours pour aller chercher son colis. Après ce délai, le colis est retourné à l'expéditeur et le client devra s'acquitter une nouvelle fois des frais d'expédition pour recevoir sa commande. L'acheteur ou le destinataire est tenu de vérifier en présence du livreur l'état du colis. Dans l'hypothèse où l'acheteur ou le destinataire des produits commandés constaterait une avarie ou un manquant, que ce soit sur l'état ou le contenu de son colis, l'acheteur ou le destinataire des produits commandés devra alors refuser le colis et signaler l'incident à NATAQUASHOP par e-mail dans un délai maximum de 48h à réception de la commande, sinon la demande pourra être refusée."
+        },
+        "9": {
+          "title": "Article 9 : Livraison en Colissimo",
+          "content": "La livraison est effectuée par le facteur à l'adresse indiquée par l'acheteur. En cas d'absence, l'acheteur ou le destinataire des produits commandés reçoit un avis de passage de son facteur, ce qui lui permet de retirer les produits commandés, au bureau de poste le plus proche, pendant un délai de quinze jours, passé ce délai, le colis sera retourné à l'expéditeur et le client devra s'acquitter une nouvelle fois des frais d'expédition pour recevoir sa commande. L'acheteur ou le destinataire des produits commandés est tenu de vérifier, en présence du préposé de la poste ou du livreur, l'état de l'emballage de la marchandise et son contenu à la livraison. Dans l'hypothèse où l'acheteur ou le destinataire des produits commandés constaterait une avarie ou un manquant, que ce soit sur l'état ou le contenu de son colis, l'acheteur ou respectivement le destinataire des produits commandés est tenu : - d'appliquer la procédure Colissimo (notamment signaler les dommages dus, toutes réclamations et réserves) et de refuser la marchandise en émettant immédiatement un constat d'anomalie auprès du préposé de la Poste (constat 170). - de signaler ces incidents à NATAQUASHOP par email dans un délai maximum de 48h à réception de la commande, sinon la demande pourra être refusée.\n\nDepuis la crise Covid19, Colissimo se réserve le droit de livrer les colis directement en boîte aux lettres sans signature de réception de la part du client."
+        },
+        "10": {
+          "title": "Article 10 : Livraison par DPD",
+          "content": "L'acheteur ou le destinataire des produits commandés est livré à son domicile par le livreur de la société de transport choisie par NATAQUASHOP et signe électroniquement un accusé de réception. En cas d'absence, l'acheteur ou le destinataire du produit commandé reçoit un avis de passage, ce qui lui permet de prendre contact avec le transporteur afin de convenir d'un autre jour de livraison. L'acheteur ou le destinataire dispose d'un délai de 10 jours pour réclamer son colis, au delà de ce délai, le colis est retourné au destinataire et le client devra s'acquitter une nouvelle fois des frais d'expédition pour recevoir sa commande. L'acheteur ou le destinataire des produits commandés est tenu de vérifier en présence du livreur l'état du colis et le nombre de colis livrés. Dans l'hypothèse où l'acheteur ou le destinataire des produits commandés constaterait une avarie ou un manquant, que ce soit sur l'état ou le contenu de son colis, l'acheteur ou le destinataire des produits commandés devra alors refuser le colis et signaler l'incident à NATAQUASHOP par e-mail dans un délai maximum de 30 jours ouvrés à réception de la commande, sinon la demande pourra être refusée.\n\nEn cas de problème de livraison, le client devra contacter le numéro non surtaxé 09 70 80 85 66."
+        },
+        "11": {
+          "title": "Article 11 : livraison par Ici Relais",
+          "content": "L'acheteur ou le destinataire de produits commandés est livré dans un point relais choisi sur le site www.nataquashop.com au moment de la commande. Il est avisé par mail ou par sms de la disponibilité de sa commande au point relais et dispose d'un délai de 10 jours pour aller chercher son colis. Après ce délai, le colis est retourné à l'expéditeur et le client devra s'acquitter une nouvelle fois des frais d'expédition pour recevoir sa commande. L'acheteur ou le destinataire est tenu de vérifier en présence du livreur l'état du colis. Dans l'hypothèse où l'acheteur ou le destinataire des produits commandés constaterait une avarie ou un manquant, que ce soit sur l'état ou le contenu de son colis, l'acheteur ou le destinataire des produits commandés devra alors refuser le colis et signaler l'incident à NATAQUASHOP par e-mail dans un délai maximum de 48h à réception de la commande, sinon la demande pourra être refusée.\n\nEn cas de problème de livraison, le client devra contacter le numéro non surtaxé 09 70 80 85 66."
+        },
+        "12": {
+          "title": "Articles 12 : Livraison par Chronopost",
+          "content": "La livraison est effectuée par un transporteur à l'adresse indiquée par l'acheteur. Attention, pour obtenir une livraison le samedi, des frais supplémentaires doivent être réglés à Nataquashop. Les commandes doivent être passées avant 13h.\n\nEn cas d'absence, l'acheteur ou le destinataire des produits commandés reçoit un avis de passage de le transporteur, ce qui lui permet de retirer les produits commandés, au bureau de poste le plus proche ou dans un point relais Chronopost, pendant un délai de quinze jours, passé ce délai, le colis sera retourné à l'expéditeur et le client devra s'acquitter une nouvelle fois des frais d'expédition pour recevoir sa commande. L'acheteur ou le destinataire des produits commandés est tenu de vérifier, en présence du préposé de La Poste ou du livreur, l'état de l'emballage de la marchandise et son contenu à la livraison. Dans l'hypothèse où l'acheteur ou le destinataire des produits commandés constaterait une avarie ou un manquant, que ce soit sur l'état ou le contenu de son colis, l'acheteur ou respectivement le destinataire des produits commandés est tenu : - d'appliquer la procédure Chronopost (notamment signaler les dommages dus, toutes réclamations et réserves) et de refuser la marchandise en émettant immédiatement un constat d'anomalie auprès du préposé de Chronopost (constat 170). - de signaler ces incidents à NATAQUASHOP par email dans un délai maximum de 48h ouvrés à réception de la commande, sinon la demande pourra être refusée."
+        },
+        "13": {
+          "title": "Article 13 : Livraison par UPS",
+          "content": "La livraison est effectuée par un transporteur à l'adresse indiquée par l'acheteur. En cas d'absence, l'acheteur ou le destinataire des produits commandés reçoit un avis de passage de le transporteur, ce qui lui permet de retirer les produits commandés en point relais ou de reprogrammer une nouvelle livraison avec UPS pendant un délai de 10 jours, passé ce délai, le colis sera retourné à l'expéditeur et le client devra s'acquitter une nouvelle fois des frais d'expédition pour recevoir sa commande. L'acheteur ou le destinataire des produits commandés est tenu de vérifier, en présence du préposé d'UPS ou du livreur, l'état de l'emballage de la marchandise et son contenu à la livraison. Dans l'hypothèse où l'acheteur ou le destinataire des produits commandés constaterait une avarie ou un manquant, que ce soit sur l'état ou le contenu de son colis, l'acheteur ou respectivement le destinataire des produits commandés est tenu : - d'appliquer la procédure UPS (notamment signaler les dommages dus, toutes réclamations et réserves) et de refuser la marchandise en émettant immédiatement un constat d'anomalie auprès du préposé de UPS - de signaler ces incidents à NATAQUASHOP par email dans un délai maximum de 48h à réception de la commande, sinon la demande pourra être refusée."
+        },
+        "14": {
+          "title": "Article 14: Délai de traitement de ma commande:",
+          "content": "Le délai d'expédition dépend de la disponibilité des articles commandés et court à partir de la validation de la commande (à réception du règlement). Il correspond à une durée de traitement et de préparation de mon colis. A partir de la validation de la commande , le délai d'expédition pour les articles en stock est de 24 heures.\n\nLe délai de livraison court à partir de l'expédition de votre colis de nos entrepôts. Il correspond au délai nécessaire au prestataire chargé de la livraison pour me faire parvenir mon colis à l'adresse de livraison indiquée au passage de ma commande. Ce délai varie selon le prestataire choisi lors de la commande."
+        },
+        "15": {
+          "title": "Article 15 : Délai de livraison",
+          "content": "Les délais de livraison sont les suivants : de 48 heures à 30 jours ouvrés suivant les articles commandés à compter de leur paiement. NATAQUASHOP s'engage à vous indiquer une date ou une tranche pour le délai de livraison au moment de la commande. Tout dépassement éventuel en terme de délai ne pourra donner lieu ni à des dommages intérêts, ni à une retenue ou annulation de la commande par l'acheteur.\n\nEn tout état de cause, et conformément aux dispositions de l'article L. 121-20 du code de la consommation, les produits commandés seront livrés dans un délai maximum de 30 jours à compter du jour suivant celui où l'acheteur a enregistré sa commande, sous réserve du paiement complet du prix. A défaut de livraison à l'expiration de ce délai, l'acheteur aura la possibilité d'annuler sa commande. Les sommes versées par l'acheteur lui seront alors restituées sans délai, à l'exclusion de toute autre indemnisation. L'acheteur devra faire sa demande par écrit (e-mail aux coordonnées indiquées dans la rubrique contact du site Internet de NATAQUASHOP). NATAQUASHOP procèdera alors à une enquête auprès du transporteur concerné. Une enquête auprès du transporteur peut durer jusqu'à 30 jours ouvrés.\n\nSi pendant ce délai, le colis contenant les produits est retrouvé, il sera au choix de l'acheteur soit immédiatement réacheminé au lieu de livraison désigné dans le bon de commande, soit conservé par NATAQUASHOP qui procèdera au remboursement des produits commandés non livrés. En revanche, si le colis contenant les produits commandés n'est pas retrouvé à l'issue de ce délai de 30 jours d'enquête, NATAQUASHOP procèdera au choix de l'acheteur, soit au remboursement des produits commandés non livrés, soit à une nouvelle expédition aux frais de NATAQUASHOP des produits commandés par l'acheteur."
+        },
+        "16": {
+          "title": "Article 16 : Annulation de commande avant expédition",
+          "content": "Si vous annulez votre achat, nous vous rembourserons le montant du prix de l'article ainsi que les frais de livraison sur le compte bancaire utilisé pour le passage de la commande."
+        },
+        "17": {
+          "title": "Article 17 : Retour des produits",
+          "content": "Demande de retour :\nLes produits doivent impérativement être retournés à NATAQUASHOP dans un parfait état de revente, dans leur état d'origine (emballage, accessoires, notice...), dûment scellés, et accompagnés du bon de retour signé.\nVous disposez de 14 jours à compter de la date de réception des articles pour nous faire part de votre volonté (par écrit) de nous retourner un article qui ne vous convient pas. Pour ce faire, rendez vous dans la rubrique « Mes commandes » de votre compte client et sélectionnez la commande dont est issu l'article à retourner. Sélectionnez l'article et cliquez sur « demander un retour ». Vous recevrez alors par mail un bon de retour à imprimer et à insérer dans votre colis.\nLes retours sont à effectuer à l'adresse suivante:\nNataquashop\nRoute d'Aubusson\n23140 Jarnages\nLes frais de retour restent toujours à votre charge quelque soit le motif.\n\nTraitement de votre retour\nVous disposez de 14 jours pour expédier votre colis de retour à compter de la date de la demande. A réception du retour par le service après-vente, celui-ci est pris en charge par un technicien qui vérifie le contenu et l'état du produit. Vous recevrez alors une notification par e-mail vous avisant de la validation du retour par le service après-vente.\nSi nous réceptionnons votre retour dans les 14 jours qui suivent votre demande de retour, nous vous rembourserons le montant du prix de l'article sous forme de crédit client valable pendant 1 an (sauf demande de la part du client de remboursement sur la carte bancaire utilisée pour l'achat).\n\nSi une commande bénéficie initialement de la gratuité des frais de livraison en raison d'un montant total dépassant le seuil fixé à 69,90€, le retour d'un ou de plusieurs articles peut entraîner une modification du montant total de la commande. Si, suite à ce retour, le nouveau total de la commande est inférieur au seuil de gratuité des frais de livraison, les frais de port seront alors appliqués et déduits du montant remboursé au client ou de l'avoir émis.\n\nSi vous souhaitez un échange dans ce délai de rétractation de 14 jours ouvrés, nous prenons en charge les frais de réexpédition de l'article seulement si la commande initiale était livrée par Colissimo ou Ici relais.\n\nSi un produit est indisponible dans votre commande, le montant du prix de l'article ainsi que des frais de livraison vous seront crédités.\n\nATTENTION, toutes les commandes de personnalisation en boutique club ne pourront être ni reprises, ni échangées. Seul le club choisit les marquages, les adhérents ne peuvent pas modifier les marquages de la boutique club.\n\nArticles retournés au delà des 14 jours\nDans le cas où vous retournez un article au delà des 14 jours après la date à laquelle la demande a été faite, aucun remboursement ou échange ne sera effectué et un paiement du montant des frais d'expédition sera demandé pour retourner votre colis.\n\nSi la taille ne va pas, Nataquashop ne pourra être tenu pour responsable, toutes les correspondances tailles sont données à titre indicatif et non une obligation d'achat.\n\nNATAQUASHOP n'accepte pas les colis adressés en port dû. Tout risque lié au retour du produit est à la charge de l'acheteur. Faute de respect de la procédure exposée ci-dessus et des délais indiqués, l'acheteur ne pourra formuler aucune réclamation pour produit manquant ou non-conformité ou vice apparent des produits livrés, les produits étant alors réputés conformes et exempts de tout vice apparent.\n\n3/ Retour pour un produit Défectueux.\nSi je reçois un produit défectueux, je fais ma demande de retour comme indiqué ci-dessus, et je signale le problème à Nataquashop dans un délai de 30 jours maximum et je devrais impérativement renvoyé par mail une photo du produit.\nSi le fournisseur accepte le retour pour défectueux, un bon de retour sera créé et devra être joint au colis.\n\nA réception de l'article, Nataquashop me renvoie le même produit sinon un avoir sera crédité sur mes crédits client.\nCet avoir aura une durée de validité de 1 an à compter de la date de création.\n\nSi je renvoie mon article sans accord et que celui-ci est refusé, un paiement du montant des frais d'expédition me sera demandé afin de me réexpédier mon produit.\n\nAttention, pour un retour défectueux, les frais de retour restent toujours à la charge du client.\n\nLes CD et DVD ne peuvent être retournés à partir du moment où ils sont descellés (article L. 221-28, 4°, 5° et 9° du code de la consommation)."
+        },
+        "18": {
+          "title": "Article 18 : Droit de rétractation",
+          "content": "Conformément à l'article L. 221-18 du Code de la Consommation, l'acheteur dispose d'un délai de 14 jours francs à compter de la date de réception, pour retourner à ses frais, les produits commandés, pour échange ou remboursement. Les produits doivent impérativement être retournés à NATAQUASHOP selon la procédure décrite à l'article 14 ci-dessus.\n\nEn revanche, conformément à l'article L.121-20-2 3° du Code de la Consommation, le droit de rétractation ne peut être exercé pour les biens confectionnés selon les spécifications du consommateur ou nettement personnalisés. Par conséquent, le droit de rétractation dont bénéficient les consommateurs aux termes de l'article L.221-18 du Code de la Consommation ne peut être exercé sur tout produit personnalisé."
+        },
+        "19": {
+          "title": "Article 19 : Réserve de propriété",
+          "content": "NATAQUASHOP conserve la propriété pleine et entière des produits vendus jusqu'au parfait encaissement du prix intégral, en principal, frais et taxes compris."
+        },
+        "20": {
+          "title": "Article 20 : Responsabilité",
+          "content": "NATAQUASHOP ne pourra être tenue pour responsable de l'inexécution du contrat en cas de rupture de stock ou d'indisponibilité du produit du fait d'un cas de force majeure, de perturbation ou grève totale ou partielle notamment des services postaux et moyens de transport et/ou communications. NATAQUASHOP ne pourra être tenue pour responsable de tous dommages indirects qui pourraient survenir du fait de l'achat des produits. NATAQUASHOP ne saurait être responsable de toutes pertes de données, fichiers. Il appartient à l'acheteur de procéder à toutes les sauvegardes nécessaires relatives à sa (ses) commande(s). Le site Internet NATAQUASHOP contient également des informations provenant de tierces personnes, et des liens vers d'autres sites Internet. NATAQUASHOP ne pourra en aucun cas être tenue pour responsable des dommages résultant de l'utilisation, de l'accès , ou de l'incapacité à utiliser ces informations tierces, ni au contenu des autres sites Internet."
+        },
+        "21": {
+          "title": "Article 21 : Non validité partielle",
+          "content": "Si une ou plusieurs stipulations des présentes conditions générales de vente sont tenues pour non valides ou déclarées comme telles en application d'une loi, d'un règlement ou à la suite d'une décision définitive d'une juridiction compétente, les autres stipulations garderont toute leur force et leur portée."
+        },
+        "22": {
+          "title": "Article 22 : Non-renonciation",
+          "content": "Le fait pour l'une des parties de ne pas se prévaloir d'un manquement auprès de l'autre partie à l'une quelconque des obligations visées au sein des présentes conditions générales de vente ne saurait être interprété pour l'avenir comme une renonciation à l'obligation en cause."
+        },
+        "23": {
+          "title": "Article 23 : Informatique et libertés",
+          "content": "Les informations collectées par NATAQUASHOP lors de toute commande de l'Acheteur sont nécessaires pour la gestion de sa commande par NATAQUASHOP et ses partenaires commerciaux. Conformément à la loi '' Informatique et Libertés '' n 78-17 du 6 janvier 1978, l'Acheteur dispose d'un droit d'accès, de rectification, d'opposition et de suppression aux données le concernant auprès de NATAQUASHOP en s'adressant par courrier à NATAQUASHOP (coordonnées indiquées dans la rubrique Contact du site internet de NATAQUASHOP). Par l'intermédiaire de NATAQUASHOP, l'acheteur, qui a expressément donné son contentement, peut être amené à recevoir des propositions commerciales d'autres organismes ou entreprises, ou être informé des offres de NATAQUASHOP. Si l'Acheteur ne souhaite plus recevoir ces propositions, il peut en informer NATAQUASHOP par courrier ou par e-mail (coordonnées indiquées dans la rubrique Contact du site internet de NATAQUASHOP)"
+        },
+        "24": {
+          "title": "Article 24 : Recours à un médiateur",
+          "content": "En cas de litige non résolu, Nataquashop met à disposition de ses clients un médiateur.\n\nVoici un lien des médiateurs mis à la disponibilité de nos clients:\nhttp://www.economie.gouv.fr/mediation-conso"
+        },
+        "25": {
+          "title": "Article 25 : Numéro UDI (Identifiant Unique Syderep)",
+          "content": "Selon les informations mentionnées à l'article 19 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, Tout producteur disposant d'un site internet communique son IDU : N° UDI Nataquashop FR219053_11QCXV"
+        }
+      }
+    }
+  },
+  "globalfooter": {
+    "alertTitle": "SOYEZ LE PREMIER ALERTÉ !",
+    "newsletterDescA": "Souscrivez à notre newsletter ",
+    "newsletterDescB": "et recevez par email les nouvelles offres et promotions : Inscrivez-vous et recevez par email les nouvelles offres et promotions.",
+    "subscribeBtn": "S’abonner",
+    "legalDisclaimer": "En vous abonnant, vous acceptez notre politique de confidentialité et donnez votre consentement pour recevoir des mises à jour de notre entreprise.",
+    "categories": {
+      "services": "Nos services",
+      "advice": "Nos conseils",
+      "customerInfo": "Infos client",
+      "followUs": "Suivez-nous"
+    },
+    "servicelinks": ["Personnalisation", "Guide des tailles", "Politique de retours"],
+    "adviseLinks": ["À propos", "Mentions légales","Conditions générales", "FAQ"],
+    "dataClientLinks":["Informations", "Commandes","Politique de retour"],
+    "copyright":
+      "Tous droits réservés.",
+    "privacyPolicy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "cookies": "Paramètres des cookies",
+    "emailPlaceholder": "Entrez votre email",
+    "newsletterTrueA": "Merci pour votre inscription !",
+    "newsletterTrueB": "Vous êtes bien abonné à la newsletter de Nataquashop"
+  },
+  "costumerAccount":{
+    "deleteAccount":{
+      "title":" Vous êtes sur le point de supprimer votre compte.",
+      "text":"Cette action effacera vos informations personnelles et vous ne pourrez plus accéder à votre espace client. Vos anciennes commandes resteront enregistrées sous une forme anonymisée.",      
+      "delete":"Supprimer mon compte",
+      "confirmation":"Confirmation",
+      "question":"Souhaitez-vous supprimer votre compte ?",
+      "cancel":"Annuler",
+      "confirm":"Confirmer"
+    },
+    "passwordError":{
+      "TOO_SHORT":"Le mot de passe doit contenir au moins 8 caractères.",
+      "NO_UPPERCASE":"Le mot de passe doit contenir au moins une majuscule.",      
+      "NO_NUMBER":"Le mot de passe doit contenir au moins un chiffre.",
+      "NO_SPECIAL":"Le mot de passe doit contenir au moins un caractère spécial.",
+      "NO_LOWERCASE": "Le mot de passe doit contenir au moins une minuscule."
+    },
+    "dataClient":{
+      "title":"Ajouter une adresse",
+      "lastname": "Nom",
+      "firstname": "Prénom",
+      "civility":"Civilité",
+      "Mr":"Monsieur",
+      "Mrs":"Madame",
+      "other":"Autre",
+      "company":"Société",
+      "address":"Adresse",
+      "designation":"Désignation",
+      "city":"Ville",
+      "postcode":"Code postal",
+      "complement":"Complément",
+      "country":"Pays",
+      "building":"Etage, Bâtiment",
+      "save":"Enregistrer",
+      "accountInfo":"Informations du compte",
+      "clientNumber":"Numéro client",
+      "registered":"Inscrit depuis le",
+      "clubCode":"Code club",
+      "email":"Adresse email",
+      "phone":"Téléphone",
+      "mobile":"Portable",
+      "birthdate":"Date de naissance",
+      "password":"Mot de passe",
+      "editPassword":"Éditer le mot de passe",
+      "required": "est obligatoire",
+      "message":"Mot de passe modifié avec succès"
+    },
+    "updateAdress":{
+      "title":"Modifier mon adresse",
+      "delete":"Supprimer mon adresse",
+      "addDefault":"Définir comme adresse par défaut ?",
+      "deleteDefault":"Retirer comme adresse par défaut ?",
+      "save":"Enregistrer",
+      "allAddress":"Toutes les adresses"
+    },
+    "orders":{
+      "title":"Mes commandes",
+      "date":"Date",
+      "reference":"Référence",
+      "status":"Statut",
+      "message":"Vous n'avez pas des commandes",
+      "price": "Prix"
+    },
+    "actionMenu":{
+      "returnItems":"Retourner les articles",
+      "review":"Laisser un avis",
+      "trackPackage":"Suivre le colis"
+    },
+    "return":{
+      "title":"Mes retours",
+      "date":"Date",
+      "type":"Type",
+      "shipping":"Expédition",
+      "order":"Commande",
+      "message":"Vous n'avez aucun retour de commande"
+    },
+    "review":{
+      "title":"AVIS PRODUIT",
+      "content":"Sélectionnez un produit pour laisser un avis :",
+      "placeholder":"Sélectionnez un produit",
+      "addNote":"Ajoutez votre note :",
+      "titleReview":"Titre de l’avis :",
+      "placeholderTitle":"Ex: Produit excellent",
+      "review":"Votre avis :",
+      "placeholderText":"Décrivez votre expérience avec ce produit...",
+      "cancel":"Annuler",
+      "publisheReview":"Publier mon avis",
+      "back":"Retour",
+      "reviewAdded":"Votre avis a été ajouté avec succès"
+     
+    },
+    "creditNote":{
+      "title":"Mes avoirs",
+      "order":"Commande",
+      "date":"Date",
+      "type":"Type",
+      "message":"Vous n'avez aucun avoir"
+    },
+    "giftVoucher":{
+      "title":"Mes chèques cadeaux",
+      "order":"Commande",
+      "usedDate":"Date d'utilisation",
+      "endDate":"Date d'expération",
+      "amount":"Montant",
+      "remainingAmount":"Montant Restant",
+      "message":"Vous n'avez pas des chèques cadeaux"
+    },
+    "sidebar":{
+      "account":"Mon compte",
+      "infos":"Mes informations",
+      "orders":"Mes commandes",
+      "returs":"Mes retours",
+      "creditNote":"Mes avoirs",
+      "giftVoucher":"Chèques cadeaux",
+      "logOut":"Se déconnecter"
+    }
+  },
+  "searchbox": {
+    "noproduct": "Aucun produit trouvé.",
+    "search": "Rechercher un produit..."
+  },
+  "deliveryCart": {
+    "commandeResume": "Résumé de la commande :",
+    "deliveryPrice": "Prix de livraison :"
+  },
+  "productCard": {
+    "retirerQuestion": "Voulez-vous vraiment retirer ce produit de votre panier ?",
+    "annuler": "Annuler",
+    "expedition24h": "Expédition en 24h",
+    "expeditionStandard": "Expédition standard",
+    "quantite": "Quantité",
+    "taille": "Taille"
+  },
+  "review":{
+    "title":"Soyez le premier à laisser votre avis",
+    "close":"Fermer",
+    "reviews":"Avis des acheteurs"
+  }
+}

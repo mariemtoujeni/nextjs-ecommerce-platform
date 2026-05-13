@@ -1,0 +1,22 @@
+server {
+    server_name $url;
+
+    location / {
+        include /etc/nginx/conf.d/proxy_params;
+        proxy_pass $service;
+    }
+    
+    listen 443 ssl;
+    ssl_certificate /etc/letsencrypt/live/$url/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/$url/privkey.pem;
+}
+
+server {
+    if ($host = $url) {
+        return 301 https://$host$request_uri;
+    }
+
+    listen 80;
+    server_name $url;
+    return 404;
+}

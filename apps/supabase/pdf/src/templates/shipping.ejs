@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>BL PDF</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: #333;
+        }
+        @page rotated {
+            height: 21cm;
+            width: 29.7cm;
+        }
+
+        .page {
+            page: rotated;
+            display: flex;
+            padding: 1cm;
+            height: 21cm;
+            width: 29.7cm;
+        }
+
+        .shipping-label {
+            width: 10cm;
+            height: 15cm;
+        }
+
+        .label.MONDIAL_RELAY { 
+            width: 10cm;
+            height: 15cm;
+        }
+
+        .page .panel {
+            width: calc(50% - 1cm);
+            display: inline-block;
+            height: 100%;
+            flex-grow: 1;
+            flex-shrink: 0;
+        }
+
+        .listing-head {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+
+        .id-command {
+            padding: 4px 8px; 
+            border: 1px solid black; 
+            margin-top: 4px; 
+            font-weight: bold; 
+            font-size: 1.25rem;
+        }
+
+        table.listing {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        table.listing th {
+            text-transform: uppercase;
+            border: 1px solid black;
+            height: 32px;
+        }
+
+        table.listing tr, table.listing td {
+            line-height: 32px;
+        }
+
+        table.listing td {
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            padding: 4px;
+        }
+
+        table.listing tbody {
+            border-bottom: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <% pages.forEach(function (p) { %>
+    <section class="page">
+        <div class="panel">
+            <img src="<%= p.sticker %>" class="label MONDIAL_RELAY" />
+        </div>
+        <div class="panel">
+            <div class="listing-head">
+                <div>
+                    <b style="font-size: 1.5rem;">Nataquashop</b><br/>
+                    <b style="font-size: 1.25rem;">MLCN Sports</b><br/>
+                    Route d'Aubusson<br/>
+                    23140 JARNAGES<br/>
+                    SIREN : 512934381<br/>
+                    N° TVA : FR05512934381<br/>
+                    Capital : 120 000 €<br/>
+                </div>
+                <div>
+                    <div class="id-command">Bon de commande : <%= p.id %></div>
+                    <div style="margin: 8px 0 0 8px;">
+                        Date: <%= p.date %><br/>
+                        Numéro client : <%= p.numero_client %><br/>
+                        <% if('' !== p.adresse.prenom) { %>
+                        <%= p.adresse.prenom %> <%= p.adresse.nom %><br/>
+                        <% } else { %>
+                        <%= p.adresse.nom %><br/>
+                        <% } %>
+                        <%= p.adresse.adresse %><br/>
+                        <% if (p.adresse.adresse2 !== '') { %>
+                        <%= p.adresse.adresse2 %><br/>
+                        <% } %>
+                        <%= p.adresse.code_postal %> <%= p.adresse.ville %>, <%= p.adresse.pays %><br/>
+                        <% if('' !== p.adresse.siren) { %>
+                            SIREN : <%= p.adresse.siren %><br />
+                        <% } %>
+                    </div>
+                </div>
+            </div>
+            <div style="height: 100%">
+                <table class="listing">
+                    <thead>
+                        <tr>
+                            <th width="60%">Désignation</th>
+                            <th>Référence</th>
+                            <th width="10%">QTE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% p.lignes.forEach(function (l) { %>
+                        <tr >
+                            <td><%= l.designation %></td>
+                            <td style="text-align: center;"><%= l.reference %></td>
+                            <td style="text-align: center;"><%= l.quantite %></td>
+                        </tr>
+                        <% }); %>                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <% }); %>
+</body>
+</html>

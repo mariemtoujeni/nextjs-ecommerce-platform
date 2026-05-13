@@ -1,0 +1,26 @@
+{
+  "name": "@repo/actions",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "check-types": "tsc --noEmit"
+  },
+  "exports": {
+    "./*": {
+      "types": "./src/*/index.ts",
+      "import": "./src/*/index.ts",
+      "default": "./build/*/index.js"
+    }
+  },
+  "dependencies": {
+    "@repo/core": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "dompurify": "^3.2.6",
+    "lexical": "^0.31.0",
+    "next": "^15.1.6",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "typescript": "latest"
+  }
+}

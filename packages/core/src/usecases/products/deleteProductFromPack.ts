@@ -1,0 +1,13 @@
+import { UserRoles } from "../../models";
+import { ErrorCodes, getInjection, UnauthorizedError } from "../../types";
+
+export const deleteProductFromPackUseCase = async (id: number, associatedProductId: number): Promise<void> => {
+  const authService = await getInjection("IAuthenticationService");
+  const user = await authService.getUser();
+  if (!user) {
+      throw new UnauthorizedError(ErrorCodes.UNAUTHORIZED_USER_ACCESS);
+  }
+  user.validateRole([UserRoles.SUPER_ADMIN, UserRoles.EDITOR]);
+  const productRepository = await getInjection("IProductRepository");
+  await productRepository.deleteProductFromPack(id, associatedProductId);
+};

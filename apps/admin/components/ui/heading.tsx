@@ -1,0 +1,43 @@
+import * as React from "react";
+
+import { cva, type VariantProps } from "class-variance-authority"
+
+import { cn } from "~/lib/utils"
+import { Slot } from "@radix-ui/react-slot";
+
+const headingVariants = cva("text-gray-700",
+    {
+        variants: {
+            heading: {
+                '1': "font-bold text-3xl mb-4",
+                '2': "font-bold text-2xl mb-3", 
+                '3': "font-medium text-xl mb-2",
+                '4': "font-medium text-lg mb-1",
+                '5': "font-medium text-base mb-1",
+                '6': "text-sm mb-1",
+            },
+        },
+        defaultVariants: {
+            heading: '1',
+        },
+    }
+)
+
+interface HeadingProps 
+extends React.HTMLAttributes<HTMLHeadingElement>, 
+VariantProps<typeof headingVariants> {
+    asChild?: boolean
+}
+
+const Heading = React.forwardRef<HTMLHeadingElement, HeadingProps>(
+    ({ className, heading, asChild = false, ...props }, ref) => {
+    const Comp = asChild ? Slot : `h${heading}`;
+
+    return (
+        <Comp className={cn(headingVariants({ heading }), className)} ref={ref} {...props} />
+    )
+})
+
+Heading.displayName = "Heading"
+
+export { Heading, headingVariants }

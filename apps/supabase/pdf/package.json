@@ -1,0 +1,23 @@
+{
+  "name": "pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "preview": "nodemon --watch src --watch test --ext js,ejs test/preview.js",
+    "start": "node src/index.js",
+    "build": "docker build . -t registry.gitlab.com/squaad.io/nataquashop:latest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "nodemon": "^3.1.4",
+    "pdf-img-convert": "^1.2.1",
+    "puppeteer": "^23.3.1",
+    "uuid": "^10.0.0"
+  }
+}

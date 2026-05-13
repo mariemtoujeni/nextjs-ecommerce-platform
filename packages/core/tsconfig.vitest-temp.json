@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "incremental": true,
+    "isolatedModules": true,
+    "lib": [
+      "es2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "esnext",
+    "moduleDetection": "force",
+    "moduleResolution": "bundler",
+    "noUncheckedIndexedAccess": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es2022",
+    "outDir": "./build",
+    "rootDir": "./",
+    "baseUrl": "./",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "strictBuiltinIteratorReturn": true,
+    "alwaysStrict": true,
+    "useUnknownInCatchVariables": true,
+    "useDefineForClassFields": true,
+    "resolvePackageJsonExports": true,
+    "resolvePackageJsonImports": true,
+    "allowSyntheticDefaultImports": true,
+    "preserveConstEnums": true,
+    "emitDeclarationOnly": false,
+    "tsBuildInfoFile": "/workspace/node_modules/.pnpm/vitest@3.1.2_@types+node@22.15.3_jiti@1.21.7_yaml@2.7.1/node_modules/vitest/dist/chunks/tsconfig.tmp.tsbuildinfo"
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}

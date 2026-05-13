@@ -1,0 +1,39 @@
+services:
+  admin:
+    container_name: mlcn-admin
+    image: ${CI_REGISTRY_IMAGE}/admin:${ADMIN_IMAGE_VERSION}
+    env_file: .env
+
+  nataquashop:
+    container_name: mlcn-nataquashop
+    image: ${CI_REGISTRY_IMAGE}/nataquashop:${NATAQUASHOP_IMAGE_VERSION}
+    env_file: .env
+
+  nginx:
+    container_name: mlcn-nginx
+    image: ${CI_REGISTRY_IMAGE}/nginx:${NGINX_IMAGE_VERSION}
+    env_file: .env
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - admin
+      - nataquashop
+      - metabase
+
+  metabase:
+    container_name: mlcn-metabase
+    image: metabase/metabase:v0.50.23
+    env_file: .env
+    depends_on:
+      - metabase-db
+
+  metabase-db:
+    container_name: mlcn-metabase-db
+    image: postgres:16
+    env_file: .env
+    
+networks:
+  default:
+    name: mlcn_infra
+    external: true

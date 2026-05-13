@@ -1,0 +1,59 @@
+{
+   "name": "@repo/core",
+   "type": "module",
+   "scripts": {
+      "build": "tsc --project tsconfig.build.json",
+      "check-types": "tsc --noEmit",
+      "test:unit": "vitest --run unit",
+      "test:integration": "NODE_ENV=integration VITEST_MAX_FORKS=1 VITEST_MIN_FORKS=1 vitest --run integration",
+      "test": "vitest --run"
+   },
+   "exports": {
+      "./models": {
+         "types": "./src/models/index.ts",
+         "import": "./src/models/index.ts",
+         "default": "./build/models/index.js"
+      },
+      "./usecases": {
+         "types": "./src/usecases/index.ts",
+         "import": "./src/usecases/index.ts",
+         "default": "./build/usecases/index.js"
+      },
+      "./types": {
+         "types": "./src/types/index.ts",
+         "import": "./src/types/index.ts",
+         "default": "./build/types/index.js"
+      },
+      "./services": {
+         "types": "./src/services/index.ts",
+         "import": "./src/services/index.ts",
+         "default": "./build/services/index.js"
+      },
+      "./adapters/*": {
+         "types": "./src/adapters/*/index.ts",
+         "import": "./src/adapters/*/index.ts",
+         "default": "./build/adapters/*/index.js"
+      },
+      "./repositories": {
+         "types": "./src/repositories/index.ts",
+         "import": "./src/repositories/index.ts",
+         "default": "./build/repositories/index.js"
+      }
+   },
+   "devDependencies": {
+      "@types/node": "^22.12.0",
+      "typescript": "latest",
+      "vite-plugin-checker": "^0.9.1",
+      "vite-plugin-env-compatible": "^2.0.1",
+      "vitest": "^3.0.8"
+   },
+   "dependencies": {
+      "@repo/typescript-config": "workspace:*",
+      "@supabase/ssr": "^0.5.2",
+      "@supabase/supabase-js": "^2.49.1",
+      "jwt-decode": "^4.0.0",
+      "next": "^15.1.6",
+      "openai": "^5.16.0",
+      "zod": "^3.24.2"
+   }
+}

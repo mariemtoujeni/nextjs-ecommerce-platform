@@ -1,0 +1,6 @@
+database/**/*.json filter=lfs diff=lfs merge=lfs -text
+database/0-old/06-InventaireEtatStock_ligne.json filter=lfs diff=lfs merge=lfs -text
+database/0-old/06-InventaireEtatStock.json filter=lfs diff=lfs merge=lfs -text
+database/1-new/06-InventaireEtatStock.sql.0 filter=lfs diff=lfs merge=lfs -text
+database/1-new/06-InventaireEtatStock-errors.json filter=lfs diff=lfs merge=lfs -text
+database/1-new/06-InventaireEtatStock_ligne-errors.json filter=lfs diff=lfs merge=lfs -text

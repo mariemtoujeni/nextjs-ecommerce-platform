@@ -1,0 +1,36 @@
+{
+  "name": "nataquashop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "build:docker": "turbo prune --docker",
+    "dev": "turbo run dev",
+    "test:integration": "turbo run test:integration",
+    "test:unit": "turbo run test:unit",
+    "test": "turbo run test:unit",
+    "lint": "turbo run lint",
+    "check-types": "turbo run check-types",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "clean": "find . \\( -name \"node_modules\" -o -name \"build\" -o -name \"out\" -o -name \".next\" \\) -type d -prune -exec rm -rf '{}' \\;"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.1",
+    "prettier-plugin-tailwindcss": "^0.6.13",
+    "turbo": "^2.5.4"
+  },
+  "packageManager": "pnpm@10.6.4+sha512.da3d715bfd22a9a105e6e8088cfc7826699332ded60c423b14ec613a185f1602206702ff0fe4c438cb15c979081ce4cb02568e364b15174503a63c7a8e2a5f6c",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@tiptap/extension-font-family": "^2.22.3",
+    "@tiptap/extension-text-style": "^2.22.3",
+    "crypto": "^1.0.1",
+    "dompurify": "^3.2.6",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.1",
+    "react-icons": "^5.5.0",
+    "sanitize-html": "^2.17.0"
+  }
+}

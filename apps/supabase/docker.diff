@@ -1,0 +1,39 @@
+diff --git a/docker/docker-compose.yml b/docker/docker-compose.yml
+index 096f65bf34..ad0144f8b0 100644
+--- a/docker/docker-compose.yml
++++ b/docker/docker-compose.yml
+@@ -136,8 +136,8 @@ services:
+       GOTRUE_SMS_AUTOCONFIRM: ${ENABLE_PHONE_AUTOCONFIRM}
+       # Uncomment to enable custom access token hook. You'll need to create a public.custom_access_token_hook function and grant necessary permissions.
+       # See: https://supabase.com/docs/guides/auth/auth-hooks#hook-custom-access-token for details
+-      # GOTRUE_HOOK_CUSTOM_ACCESS_TOKEN_ENABLED="true"
+-      # GOTRUE_HOOK_CUSTOM_ACCESS_TOKEN_URI="pg-functions://postgres/public/custom_access_token_hook"
++      GOTRUE_HOOK_CUSTOM_ACCESS_TOKEN_ENABLED: true
++      GOTRUE_HOOK_CUSTOM_ACCESS_TOKEN_URI: pg-functions://postgres/public/custom_access_token_hook
+
+       # GOTRUE_HOOK_MFA_VERIFICATION_ATTEMPT_ENABLED="true"
+       # GOTRUE_HOOK_MFA_VERIFICATION_ATTEMPT_URI="pg-functions://postgres/public/mfa_verification_attempt"
+@@ -299,12 +299,13 @@ services:
+         condition: service_healthy
+     environment:
+       JWT_SECRET: ${JWT_SECRET}
+-      SUPABASE_URL: http://kong:8000
++      SUPABASE_URL: ${SUPABASE_URL}
+       SUPABASE_ANON_KEY: ${ANON_KEY}
+       SUPABASE_SERVICE_ROLE_KEY: ${SERVICE_ROLE_KEY}
+       SUPABASE_DB_URL: postgresql://postgres:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DB}
+       # TODO: Allow configuring VERIFY_JWT per function. This PR might help: https://github.com/supabase/cli/pull/786
+       VERIFY_JWT: "${FUNCTIONS_VERIFY_JWT}"
++      DEBUG_EMAIL: ${DEBUG_EMAIL}
+     volumes:
+       - ./volumes/functions:/home/deno/functions:Z
+     command:
+@@ -427,3 +428,8 @@ services:
+
+ volumes:
+   db-config:
++
++networks:
++  default:
++    external: true
++    name: mlcn_infra
